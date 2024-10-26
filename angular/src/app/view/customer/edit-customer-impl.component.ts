@@ -10,7 +10,6 @@ import { TranslateModule } from '@ngx-translate/core';
 import { MaterialModule } from '@app/material.module';
 import { CsvModule } from '@ctrl/ngx-csv';
 import { TableComponent } from '@app/components/table/table.component';
-import { SharedModule } from '@app/@shared';
 import { CustomerEditorImplComponent } from '@app/components/customer/customer-editor-impl.component';
 import { CustomerDetailsImplComponent } from '@app/components/customer/customer-details-impl.component';
 
@@ -24,7 +23,6 @@ import { CustomerDetailsImplComponent } from '@app/components/customer/customer-
     FormsModule,
     ReactiveFormsModule,
     TranslateModule,
-    SharedModule,
     MaterialModule,
     CsvModule,
     TableComponent,
@@ -36,6 +34,10 @@ export class EditCustomerImplComponent extends EditCustomerComponent {
 
     constructor() {
         super();
+        this.customerApiStore.reset()
+        this.success = this.customerApiStore.success;
+        this.loading = this.customerApiStore.loading;
+        this.error = this.customerApiStore.error;
     }
 
     override beforeOnInit(form: EditCustomerVarsForm): EditCustomerVarsForm{     

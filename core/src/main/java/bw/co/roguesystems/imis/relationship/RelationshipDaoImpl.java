@@ -54,10 +54,6 @@ public class RelationshipDaoImpl
      */
     private Relationship loadRelationshipFromRelationshipVO(RelationshipVO relationshipVO)
     {
-        // TODO implement loadRelationshipFromRelationshipVO
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.relationship.loadRelationshipFromRelationshipVO(RelationshipVO) not yet implemented.");
-
-        /* A typical implementation looks like this:
         if (relationshipVO.getId() == null)
         {
             return  Relationship.Factory.newInstance();
@@ -66,7 +62,7 @@ public class RelationshipDaoImpl
         {
             return this.load(relationshipVO.getId());
         }
-        */
+        
     }
 
     /**

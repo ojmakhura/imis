@@ -8,10 +8,15 @@
  */
 package bw.co.roguesystems.imis.relationship;
 
+import bw.co.roguesystems.imis.ImisSpecifications;
 import bw.co.roguesystems.imis.PropertySearchOrder;
+import bw.co.roguesystems.imis.SortOrderFactory;
+
 import java.util.Collection;
 import java.util.Set;
 import org.springframework.context.MessageSource;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -44,8 +49,8 @@ public class RelationshipServiceImpl
     protected RelationshipVO handleFindById(Long id)
         throws Exception
     {
-        // TODO implement protected  RelationshipVO handleFindById(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.relationship.RelationshipService.handleFindById(Long id) Not implemented!");
+
+        return this.getRelationshipDao().toRelationshipVO(relationshipRepository.getReferenceById(id));
     }
 
     /**
@@ -55,8 +60,8 @@ public class RelationshipServiceImpl
     protected Collection<RelationshipVO> handleGetAll()
         throws Exception
     {
-        // TODO implement protected  Collection<RelationshipVO> handleGetAll()
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.relationship.RelationshipService.handleGetAll() Not implemented!");
+
+        return this.getRelationshipDao().toRelationshipVOCollection(relationshipRepository.findAll());
     }
 
     /**
@@ -66,8 +71,9 @@ public class RelationshipServiceImpl
     protected boolean handleRemove(Long id)
         throws Exception
     {
-        // TODO implement protected  boolean handleRemove(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.relationship.RelationshipService.handleRemove(Long id) Not implemented!");
+
+        relationshipRepository.deleteById(id);
+        return true;
     }
 
     /**
@@ -77,8 +83,11 @@ public class RelationshipServiceImpl
     protected RelationshipVO handleSave(RelationshipVO relationship)
         throws Exception
     {
-        // TODO implement protected  RelationshipVO handleSave(RelationshipVO relationship)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.relationship.RelationshipService.handleSave(RelationshipVO relationship) Not implemented!");
+
+        Relationship rel = this.getRelationshipDao().relationshipVOToEntity(relationship);
+        rel = relationshipRepository.save(rel);
+
+        return this.getRelationshipDao().toRelationshipVO(rel);
     }
 
     /**
@@ -88,8 +97,15 @@ public class RelationshipServiceImpl
     protected Collection<RelationshipVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
         throws Exception
     {
-        // TODO implement protected  Collection<RelationshipVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.relationship.RelationshipService.handleSearch(String criteria, Set<PropertySearchOrder> orderings) Not implemented!");
+
+        Specification<Relationship> spec = ImisSpecifications.findByAttributeContainingIgnoreCase(criteria, "relation");
+        Sort sort = SortOrderFactory.createSortOrder(orderings);
+
+        if(sort == null) {
+            return this.getRelationshipDao().toRelationshipVOCollection(relationshipRepository.findAll(spec));
+        } else {
+            return this.getRelationshipDao().toRelationshipVOCollection(relationshipRepository.findAll(spec, sort));
+        }
     }
 
 }

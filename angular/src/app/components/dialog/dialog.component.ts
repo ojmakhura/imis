@@ -29,7 +29,6 @@ import { GenericComponent } from "@app/view/generic.component";
     FormsModule,
     ReactiveFormsModule,
     TranslateModule,
-    SharedModule,
     MaterialModule,
     NgComponentOutlet
   ]

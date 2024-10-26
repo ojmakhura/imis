@@ -36,15 +36,16 @@ export const RelationshipApiStore = signalStore(
           return relationshipApi.findById(data.id, ).pipe(
             tapResponse({
               next: (data: RelationshipVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     error: false,
+                     success: true, 
+                     messages: ["Found relationshionship " + data.relation] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -65,16 +66,17 @@ export const RelationshipApiStore = signalStore(
           patchState(store, { loading: true });
           return relationshipApi.getAll().pipe(
             tapResponse({
-              next: (data: RelationshipVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: RelationshipVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     error: false,
+                     messages: [`Found ${dataList.length} relationships`] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -95,16 +97,16 @@ export const RelationshipApiStore = signalStore(
           patchState(store, { loading: true });
           return relationshipApi.remove(data.id, ).pipe(
             tapResponse({
-              next: (data: boolean | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (removed: boolean | any) => {
+                patchState(
+                  store, 
+                  { 
+                     data: null, 
+                     loading: false, 
+                     success: true, 
+                     messages: [removed ? "Relationship removed" : "Relationship not removed"] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -112,6 +114,7 @@ export const RelationshipApiStore = signalStore(
                     error, 
                     loading: false, 
                     success: false,
+                    error: false,
                     messages: [error?.error ? error.error : error] 
                   }
                 );
@@ -126,15 +129,16 @@ export const RelationshipApiStore = signalStore(
           return relationshipApi.save(data.relationship, ).pipe(
             tapResponse({
               next: (data: RelationshipVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     success: true, 
+                     error: false,
+                     messages: [`Saved relationship ${data.relation}`] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -155,16 +159,17 @@ export const RelationshipApiStore = signalStore(
           patchState(store, { loading: true });
           return relationshipApi.search(data.criteria, ).pipe(
             tapResponse({
-              next: (data: RelationshipVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: RelationshipVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     error: false,
+                     messages: [`Found ${dataList.length} relationships`] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(

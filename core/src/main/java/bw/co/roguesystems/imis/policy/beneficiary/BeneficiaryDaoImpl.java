@@ -58,10 +58,6 @@ public class BeneficiaryDaoImpl
      */
     private Beneficiary loadBeneficiaryFromBeneficiaryVO(BeneficiaryVO beneficiaryVO)
     {
-        // TODO implement loadBeneficiaryFromBeneficiaryVO
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.beneficiary.loadBeneficiaryFromBeneficiaryVO(BeneficiaryVO) not yet implemented.");
-
-        /* A typical implementation looks like this:
         if (beneficiaryVO.getId() == null)
         {
             return  Beneficiary.Factory.newInstance();
@@ -70,7 +66,6 @@ public class BeneficiaryDaoImpl
         {
             return this.load(beneficiaryVO.getId());
         }
-        */
     }
 
     /**

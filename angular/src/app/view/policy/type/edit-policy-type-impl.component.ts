@@ -10,7 +10,6 @@ import { TranslateModule } from '@ngx-translate/core';
 import { MaterialModule } from '@app/material.module';
 import { CsvModule } from '@ctrl/ngx-csv';
 import { TableComponent } from '@app/components/table/table.component';
-import { SharedModule } from '@app/@shared';
 import { PolicyTypeDetailsImplComponent } from '@app/components/policy/type/policy-type-details-impl.component';
 import { PolicyTypeEditorImplComponent } from '@app/components/policy/type/policy-type-editor-impl.component';
 
@@ -24,7 +23,6 @@ import { PolicyTypeEditorImplComponent } from '@app/components/policy/type/polic
     FormsModule,
     ReactiveFormsModule,
     TranslateModule,
-    SharedModule,
     MaterialModule,
     CsvModule,
     TableComponent,
@@ -36,6 +34,10 @@ export class EditPolicyTypeImplComponent extends EditPolicyTypeComponent {
 
     constructor() {
         super();
+        this.policyTypeApiStore.reset()
+        this.success = this.policyTypeApiStore.success;
+        this.loading = this.policyTypeApiStore.loading;
+        this.error = this.policyTypeApiStore.error;
     }
 
     override beforeOnInit(form: EditPolicyTypeVarsForm): EditPolicyTypeVarsForm{     

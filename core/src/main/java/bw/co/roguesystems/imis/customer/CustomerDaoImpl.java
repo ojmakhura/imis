@@ -58,10 +58,7 @@ public class CustomerDaoImpl
      */
     private Customer loadCustomerFromCustomerVO(CustomerVO customerVO)
     {
-        // TODO implement loadCustomerFromCustomerVO
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.customer.loadCustomerFromCustomerVO(CustomerVO) not yet implemented.");
 
-        /* A typical implementation looks like this:
         if (customerVO.getId() == null)
         {
             return  Customer.Factory.newInstance();
@@ -70,7 +67,6 @@ public class CustomerDaoImpl
         {
             return this.load(customerVO.getId());
         }
-        */
     }
 
     /**

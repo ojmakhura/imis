@@ -67,10 +67,6 @@ public class PolicyDaoImpl
      */
     private Policy loadPolicyFromPolicyVO(PolicyVO policyVO)
     {
-        // TODO implement loadPolicyFromPolicyVO
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.loadPolicyFromPolicyVO(PolicyVO) not yet implemented.");
-
-        /* A typical implementation looks like this:
         if (policyVO.getId() == null)
         {
             return  Policy.Factory.newInstance();
@@ -79,7 +75,6 @@ public class PolicyDaoImpl
         {
             return this.load(policyVO.getId());
         }
-        */
     }
 
     /**

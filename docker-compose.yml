@@ -1,0 +1,38 @@
+
+
+version: '3.3'
+services:
+  fleet-api:
+    image: "fleet-api:0.0.1"
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:9761/eurekaqa/eureka/
+      - SPRING_PROFILES_ACTIVE=${ACTIVE_PROFILE}
+      - DB_HOST=${DB_HOST}
+      - EUREKA_CLIENT=${EUREKA_CLIENT}
+      - DB_DRIVER_CLASS=${DB_DRIVER_CLASS}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PLATFORM=${DB_PLATFORM}
+      - DRIVER_CLASS=${DRIVER_CLASS}
+      - DATABASE_URL=${DATABASE_URL}
+      - BASE_SECURITY_URL=${BASE_SECURITY_URL}
+      - MESSAGING_URL=${MESSAGING_URL}
+      - STORAGE_URL=${STORAGE_URL}
+      - BASE_COMPANY_NAME=${BASE_COMPANY_NAME}
+      - BASE_COMPANY_ID=${BASE_COMPANY_ID}
+    container_name: nigis-applied-geo-science_qa
+    volumes:
+      - ./hosts:/etc/hosts
+    ports:
+      - 8085:8085
+    networks:
+      - nigis_qa
+    restart: always
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+networks:
+  nigis_qa:
+
+

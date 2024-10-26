@@ -4,7 +4,7 @@ import { finalize } from 'rxjs/operators';
 import { QuoteService } from './quote.service';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
-import { LoaderComponent, SharedModule } from '@app/@shared';
+import { LoaderComponent } from '@app/@shared';
 import { MaterialModule } from '@app/material.module';
 
 @Component({
@@ -12,7 +12,7 @@ import { MaterialModule } from '@app/material.module';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   standalone: true,
-  imports: [CommonModule, TranslateModule, SharedModule, MaterialModule, LoaderComponent],
+  imports: [CommonModule, TranslateModule,  MaterialModule, LoaderComponent],
 })
 export class HomeComponent implements OnInit {
   quote: string | undefined;

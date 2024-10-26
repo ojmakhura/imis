@@ -10,7 +10,6 @@ import { TranslateModule } from '@ngx-translate/core';
 import { MaterialModule } from '@app/material.module';
 import { CsvModule } from '@ctrl/ngx-csv';
 import { TableComponent } from '@app/components/table/table.component';
-import { SharedModule } from '@app/@shared';
 import { PolicyEditorImplComponent } from '@app/components/policy/policy-editor-impl.component';
 
 @Component({
@@ -23,7 +22,6 @@ import { PolicyEditorImplComponent } from '@app/components/policy/policy-editor-
     FormsModule,
     ReactiveFormsModule,
     TranslateModule,
-    SharedModule,
     MaterialModule,
     CsvModule,
     TableComponent,
@@ -34,6 +32,10 @@ export class SearchPoliciesImplComponent extends SearchPoliciesComponent {
 
     constructor() {
         super();
+        this.policyApiStore.reset()
+        this.success = this.policyApiStore.success;
+        this.loading = this.policyApiStore.loading;
+        this.error = this.policyApiStore.error;
     }
 
     override beforeOnInit(form: SearchPoliciesVarsForm): SearchPoliciesVarsForm{     
