@@ -9,9 +9,16 @@
 package bw.co.roguesystems.imis.policy.type.benefits;
 
 import bw.co.roguesystems.imis.PropertySearchOrder;
+import bw.co.roguesystems.imis.SortOrderFactory;
+
 import java.util.Collection;
 import java.util.Set;
+
+import org.apache.commons.lang3.StringUtils;
+import org.hibernate.query.sqm.SortOrder;
 import org.springframework.context.MessageSource;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -44,8 +51,8 @@ public class BenefitServiceImpl
     protected BenefitVO handleFindById(Long id)
         throws Exception
     {
-        // TODO implement protected  BenefitVO handleFindById(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.benefits.BenefitService.handleFindById(Long id) Not implemented!");
+
+        return (BenefitVO) benefitDao.load(BenefitDaoBase.TRANSFORM_BENEFITVO, id);
     }
 
     /**
@@ -55,8 +62,10 @@ public class BenefitServiceImpl
     protected Collection<BenefitVO> handleGetAll()
         throws Exception
     {
-        // TODO implement protected  Collection<BenefitVO> handleGetAll()
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.benefits.BenefitService.handleGetAll() Not implemented!");
+
+        Collection<Benefit> entities = benefitRepository.findAll();
+
+        return benefitDao.toBenefitVOCollection(entities);
     }
 
     /**
@@ -66,8 +75,10 @@ public class BenefitServiceImpl
     protected boolean handleRemove(Long id)
         throws Exception
     {
-        // TODO implement protected  boolean handleRemove(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.benefits.BenefitService.handleRemove(Long id) Not implemented!");
+
+        benefitRepository.deleteById(id);
+
+        return true;
     }
 
     /**
@@ -77,8 +88,11 @@ public class BenefitServiceImpl
     protected BenefitVO handleSave(BenefitVO benefit)
         throws Exception
     {
-        // TODO implement protected  BenefitVO handleSave(BenefitVO benefit)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.benefits.BenefitService.handleSave(BenefitVO benefit) Not implemented!");
+
+        Benefit entity = benefitDao.benefitVOToEntity(benefit);
+        entity = benefitRepository.save(entity);
+
+        return benefitDao.toBenefitVO(entity);
     }
 
     /**
@@ -88,8 +102,24 @@ public class BenefitServiceImpl
     protected Collection<BenefitVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
         throws Exception
     {
-        // TODO implement protected  Collection<BenefitVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.benefits.BenefitService.handleSearch(String criteria, Set<PropertySearchOrder> orderings) Not implemented!");
+
+        Sort sort = SortOrderFactory.createSortOrder(orderings);
+
+        Specification<Benefit> spec = StringUtils.isBlank(criteria) ?
+                null :
+                (root, query, cb) -> {
+
+                    return cb.or(
+                        cb.like(cb.lower(root.get("benefit")), "%" + criteria.toLowerCase() + "%"),
+                        cb.like(cb.lower(root.get("description")), "%" + criteria.toLowerCase() + "%")
+                    );
+                };
+
+        Collection<Benefit> entities = sort == null ?
+                benefitRepository.findAll(spec) :
+                benefitRepository.findAll(spec, sort);
+
+        return benefitDao.toBenefitVOCollection(entities);
     }
 
 }

@@ -60,10 +60,6 @@ public class PolicyTypeDaoImpl
      */
     private PolicyType loadPolicyTypeFromPolicyTypeVO(PolicyTypeVO policyTypeVO)
     {
-        // TODO implement loadPolicyTypeFromPolicyTypeVO
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.loadPolicyTypeFromPolicyTypeVO(PolicyTypeVO) not yet implemented.");
-
-        /* A typical implementation looks like this:
         if (policyTypeVO.getId() == null)
         {
             return  PolicyType.Factory.newInstance();
@@ -72,7 +68,6 @@ public class PolicyTypeDaoImpl
         {
             return this.load(policyTypeVO.getId());
         }
-        */
     }
 
     /**

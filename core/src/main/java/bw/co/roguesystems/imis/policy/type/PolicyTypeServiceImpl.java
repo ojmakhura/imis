@@ -9,9 +9,15 @@
 package bw.co.roguesystems.imis.policy.type;
 
 import bw.co.roguesystems.imis.PropertySearchOrder;
+import bw.co.roguesystems.imis.SortOrderFactory;
+
 import java.util.Collection;
 import java.util.Set;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.context.MessageSource;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -44,8 +50,14 @@ public class PolicyTypeServiceImpl
     protected PolicyTypeVO handleFindById(Long id)
         throws Exception
     {
-        // TODO implement protected  PolicyTypeVO handleFindById(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.PolicyTypeService.handleFindById(Long id) Not implemented!");
+
+        PolicyType type = policyTypeRepository.findById(id).orElse(null);
+
+        if(type == null ) {
+            return null;
+        }
+
+        return policyTypeDao.toPolicyTypeVO(type);
     }
 
     /**
@@ -55,8 +67,10 @@ public class PolicyTypeServiceImpl
     protected Collection<PolicyTypeVO> handleGetAll()
         throws Exception
     {
-        // TODO implement protected  Collection<PolicyTypeVO> handleGetAll()
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.PolicyTypeService.handleGetAll() Not implemented!");
+
+        Collection<PolicyType> types = policyTypeRepository.findAll();
+
+        return policyTypeDao.toPolicyTypeVOCollection(types);
     }
 
     /**
@@ -66,8 +80,10 @@ public class PolicyTypeServiceImpl
     protected boolean handleRemove(Long id)
         throws Exception
     {
-        // TODO implement protected  boolean handleRemove(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.PolicyTypeService.handleRemove(Long id) Not implemented!");
+
+        policyTypeRepository.deleteById(id);
+
+        return true;
     }
 
     /**
@@ -77,8 +93,12 @@ public class PolicyTypeServiceImpl
     protected PolicyTypeVO handleSave(PolicyTypeVO type)
         throws Exception
     {
-        // TODO implement protected  PolicyTypeVO handleSave(PolicyTypeVO type)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.PolicyTypeService.handleSave(PolicyTypeVO type) Not implemented!");
+
+        PolicyType entity = policyTypeDao.policyTypeVOToEntity(type);
+
+        entity = policyTypeRepository.save(entity);
+
+        return policyTypeDao.toPolicyTypeVO(entity);
     }
 
     /**
@@ -88,8 +108,22 @@ public class PolicyTypeServiceImpl
     protected Collection<PolicyTypeVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
         throws Exception
     {
-        // TODO implement protected  Collection<PolicyTypeVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.PolicyTypeService.handleSearch(String criteria, Set<PropertySearchOrder> orderings) Not implemented!");
+
+        Sort sort = SortOrderFactory.createSortOrder(orderings);
+
+        Specification<PolicyType> spec = 
+            StringUtils.isBlank(criteria) ?
+                null :
+                (root, query, cb) -> {
+
+                    return cb.like(cb.lower(root.get("type")), "%" + criteria.toLowerCase() + "%");
+                };
+
+        Collection<PolicyType> types = sort == null ?
+                policyTypeRepository.findAll(spec) :
+                policyTypeRepository.findAll(spec, sort);
+
+        return policyTypeDao.toPolicyTypeVOCollection(types);
     }
 
 }

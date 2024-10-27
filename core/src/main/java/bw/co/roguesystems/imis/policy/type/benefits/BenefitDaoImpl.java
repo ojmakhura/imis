@@ -7,6 +7,8 @@
 package bw.co.roguesystems.imis.policy.type.benefits;
 
 import bw.co.roguesystems.imis.policy.type.PolicyTypeRepository;
+import bw.co.roguesystems.imis.policy.type.PolicyTypeVO;
+
 import org.springframework.stereotype.Repository;
 
 /**
@@ -39,6 +41,13 @@ public class BenefitDaoImpl
         // TODO verify behavior of toBenefitVO
         super.toBenefitVO(source, target);
         // WARNING! No conversion for target.policyType (can't convert source.getPolicyType():bw.co.roguesystems.imis.policy.type.PolicyType to bw.co.roguesystems.imis.policy.type.PolicyTypeVO
+
+        if(source.getPolicyType() != null) {
+            PolicyTypeVO vo = new PolicyTypeVO();
+            vo.setId(source.getPolicyType().getId());
+            vo.setType(source.getPolicyType().getType());
+            // vo.set
+        }   
     }
 
     /**
@@ -58,10 +67,6 @@ public class BenefitDaoImpl
      */
     private Benefit loadBenefitFromBenefitVO(BenefitVO benefitVO)
     {
-        // TODO implement loadBenefitFromBenefitVO
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.type.benefits.loadBenefitFromBenefitVO(BenefitVO) not yet implemented.");
-
-        /* A typical implementation looks like this:
         if (benefitVO.getId() == null)
         {
             return  Benefit.Factory.newInstance();
@@ -70,7 +75,6 @@ public class BenefitDaoImpl
         {
             return this.load(benefitVO.getId());
         }
-        */
     }
 
     /**
@@ -95,5 +99,10 @@ public class BenefitDaoImpl
     {
         // TODO verify behavior of benefitVOToEntity
         super.benefitVOToEntity(source, target, copyIfNull);
+
+        if(source.getPolicyType() != null) {
+
+            target.setPolicyType(policyTypeRepository.getReferenceById(source.getPolicyType().getId()));            
+        }
     }
 }

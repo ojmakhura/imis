@@ -37,7 +37,7 @@ public class ImisSpecifications {
         }
     }
     
-    public static <E, T>Specification<E> findByAttributeContainingIgnoreCase(String attributeValue, String... joinAttributes) {
+    public static <E>Specification<E> findByAttributeContainingIgnoreCase(String attributeValue, String... joinAttributes) {
 
         if(joinAttributes.length == 1) {
             return (root, cq, cb) -> {

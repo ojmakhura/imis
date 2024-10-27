@@ -8,10 +8,17 @@
  */
 package bw.co.roguesystems.imis.policy.beneficiary;
 
+import bw.co.roguesystems.imis.ImisSpecifications;
 import bw.co.roguesystems.imis.PropertySearchOrder;
+import bw.co.roguesystems.imis.SortOrderFactory;
+
 import java.util.Collection;
 import java.util.Set;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.context.MessageSource;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -44,8 +51,8 @@ public class BeneficiaryServiceImpl
     protected BeneficiaryVO handleFindById(Long id)
         throws Exception
     {
-        // TODO implement protected  BeneficiaryVO handleFindById(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.beneficiary.BeneficiaryService.handleFindById(Long id) Not implemented!");
+
+        return beneficiaryDao.toBeneficiaryVO(beneficiaryRepository.getReferenceById(id));
     }
 
     /**
@@ -55,8 +62,10 @@ public class BeneficiaryServiceImpl
     protected Collection<BeneficiaryVO> handleGetAll()
         throws Exception
     {
-        // TODO implement protected  Collection<BeneficiaryVO> handleGetAll()
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.beneficiary.BeneficiaryService.handleGetAll() Not implemented!");
+
+        Collection<Beneficiary> entities = beneficiaryRepository.findAll();
+
+        return beneficiaryDao.toBeneficiaryVOCollection(entities);
     }
 
     /**
@@ -66,8 +75,10 @@ public class BeneficiaryServiceImpl
     protected boolean handleRemove(Long id)
         throws Exception
     {
-        // TODO implement protected  boolean handleRemove(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.beneficiary.BeneficiaryService.handleRemove(Long id) Not implemented!");
+
+        beneficiaryRepository.deleteById(id);
+
+        return true;
     }
 
     /**
@@ -77,8 +88,11 @@ public class BeneficiaryServiceImpl
     protected BeneficiaryVO handleSave(BeneficiaryVO benefit)
         throws Exception
     {
-        // TODO implement protected  BeneficiaryVO handleSave(BeneficiaryVO benefit)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.beneficiary.BeneficiaryService.handleSave(BeneficiaryVO benefit) Not implemented!");
+
+        Beneficiary ben = beneficiaryDao.beneficiaryVOToEntity(benefit);
+        ben = beneficiaryRepository.save(ben);
+
+        return beneficiaryDao.toBeneficiaryVO(ben);
     }
 
     /**
@@ -88,8 +102,24 @@ public class BeneficiaryServiceImpl
     protected Collection<BeneficiaryVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
         throws Exception
     {
-        // TODO implement protected  Collection<BeneficiaryVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.policy.beneficiary.BeneficiaryService.handleSearch(String criteria, Set<PropertySearchOrder> orderings) Not implemented!");
+
+        Sort sort = SortOrderFactory.createSortOrder(orderings);
+
+        Specification<Beneficiary> spec = null;
+
+        if(StringUtils.isNotBlank(criteria)) {
+
+            spec = ImisSpecifications.<Beneficiary>findByAttributeContainingIgnoreCase(criteria, "firstName")
+                    .or(ImisSpecifications.findByAttributeContainingIgnoreCase(criteria, "surname"))
+                    .or(ImisSpecifications.findByAttributeContainingIgnoreCase(criteria, "identityNo"));
+
+        }
+
+        Collection<Beneficiary> entities = sort == null ?
+                beneficiaryRepository.findAll(spec) :
+                beneficiaryRepository.findAll(spec, sort);
+
+        return beneficiaryDao.toBeneficiaryVOCollection(entities);
     }
 
 }

@@ -45,6 +45,10 @@ export const routes: Routes = [
       path: 'policy/type/benefit', 
       loadChildren: () => import('@app/view/policy/type/benefits/policy-type-benefit.routes').then((m) => m.routes),
     },
+    {
+      path: 'relationship', 
+      loadChildren: () => import('@app/view/relationship/relationship.routes').then((m) => m.routes),
+    },
   ]),
   // Fallback when no prior route is matched
   { 

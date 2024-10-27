@@ -6,9 +6,16 @@
  */
 package bw.co.roguesystems.imis.policy;
 
+import bw.co.roguesystems.imis.customer.Customer;
 import bw.co.roguesystems.imis.customer.CustomerRepository;
+import bw.co.roguesystems.imis.customer.CustomerVO;
 import bw.co.roguesystems.imis.policy.beneficiary.BeneficiaryRepository;
+import bw.co.roguesystems.imis.policy.type.PolicyType;
 import bw.co.roguesystems.imis.policy.type.PolicyTypeRepository;
+
+import java.time.LocalDate;
+import java.util.Date;
+
 import org.springframework.stereotype.Repository;
 
 /**
@@ -45,9 +52,24 @@ public class PolicyDaoImpl
         // TODO verify behavior of toPolicyVO
         super.toPolicyVO(source, target);
         // WARNING! No conversion for target.startDate (can't convert source.getStartDate():java.util.Date to java.util.Date
+        target.setStartDate(LocalDate.of(source.getStartDate().getYear(), source.getStartDate().getMonth(), source.getStartDate().getDay()));
         // WARNING! No conversion for target.policyType (can't convert source.getPolicyType():bw.co.roguesystems.imis.policy.type.PolicyType to bw.co.roguesystems.imis.policy.type.PolicyTypeVO
+        if(source.getPolicyType() != null) {
+            target.setPolicyType(policyTypeDao.toPolicyTypeVO(source.getPolicyType()));
+
+        }
         // WARNING! No conversion for target.customer (can't convert source.getCustomer():bw.co.roguesystems.imis.customer.Customer to bw.co.roguesystems.imis.customer.CustomerVO
+        if(source.getCustomer() != null) {
+
+            CustomerVO customer = new CustomerVO();
+
+            customerDao.toCustomerVO(source.getCustomer(), customer);
+        }
         // WARNING! No conversion for target.endDate (can't convert source.getEndDate():java.util.Date to java.util.Date
+        if(source.getEndDate() != null) {
+            target.setEndDate(LocalDate.of(source.getEndDate().getYear(), source.getEndDate().getMonth(), source.getEndDate().getDay()));
+        }
+        
     }
 
     /**
@@ -100,6 +122,43 @@ public class PolicyDaoImpl
         // TODO verify behavior of policyVOToEntity
         super.policyVOToEntity(source, target, copyIfNull);
         // No conversion for target.startDate (can't convert source.getStartDate():java.util.Date to java.util.Date
+            target.setStartDate(new Date(source.getStartDate().getYear(), source.getStartDate().getMonthValue(), source.getStartDate().getDayOfMonth()));
+        
         // No conversion for target.endDate (can't convert source.getEndDate():java.util.Date to java.util.Date
+        if(source.getEndDate() != null) {
+            target.setEndDate(new Date(source.getEndDate().getYear(), source.getEndDate().getMonthValue(), source.getEndDate().getDayOfMonth()));
+        }
+
+        if(source.getPolicyType() != null) {
+
+            PolicyType type = PolicyType.Factory.newInstance();
+
+            if(source.getPolicyType().getId() != null && source.getPolicyType().getId() > 0) {
+                type = policyTypeRepository.getReferenceById(source.getPolicyType().getId());
+            } else {
+
+                policyTypeDao.policyTypeVOToEntity(source.getPolicyType(), type, copyIfNull);
+
+            }
+
+            target.setPolicyType(type);
+
+        }
+
+        if(source.getCustomer() != null) {
+
+            Customer customer = Customer.Factory.newInstance();
+
+            if(source.getCustomer().getId() != null && source.getCustomer().getId() > 0) {
+                customer = customerRepository.getReferenceById(source.getCustomer().getId());
+            } else {
+
+                customerDao.customerVOToEntity(source.getCustomer(), customer, copyIfNull);
+
+            }
+
+            target.setCustomer(customer);
+
+        }
     }
 }

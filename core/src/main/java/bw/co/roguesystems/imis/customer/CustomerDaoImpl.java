@@ -39,6 +39,7 @@ public class CustomerDaoImpl
         // TODO verify behavior of toCustomerVO
         super.toCustomerVO(source, target);
         // WARNING! No conversion for target.dateOfBirth (can't convert source.getDateOfBirth():java.util.Date to java.util.Date
+        target.setDateOfBirth(target.getDateOfBirth());
     }
 
     /**
@@ -92,5 +93,6 @@ public class CustomerDaoImpl
         // TODO verify behavior of customerVOToEntity
         super.customerVOToEntity(source, target, copyIfNull);
         // No conversion for target.dateOfBirth (can't convert source.getDateOfBirth():java.util.Date to java.util.Date
+        target.setDateOfBirth(target.getDateOfBirth());
     }
 }

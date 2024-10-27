@@ -10,10 +10,15 @@ package bw.co.roguesystems.imis.customer;
 
 import bw.co.roguesystems.imis.PropertySearchOrder;
 import bw.co.roguesystems.imis.SearchObject;
+import bw.co.roguesystems.imis.SortOrderFactory;
+
 import java.util.Collection;
 import java.util.Set;
 import org.springframework.context.MessageSource;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -46,8 +51,7 @@ public class CustomerServiceImpl
     protected CustomerVO handleFindById(Long id)
         throws Exception
     {
-        // TODO implement protected  CustomerVO handleFindById(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.customer.CustomerService.handleFindById(Long id) Not implemented!");
+        return customerDao.toCustomerVO(customerRepository.getReferenceById(id));
     }
 
     /**
@@ -57,8 +61,8 @@ public class CustomerServiceImpl
     protected Collection<CustomerVO> handleGetAll()
         throws Exception
     {
-        // TODO implement protected  Collection<CustomerVO> handleGetAll()
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.customer.CustomerService.handleGetAll() Not implemented!");
+
+        return customerDao.toCustomerVOCollection(customerRepository.findAll());
     }
 
     /**
@@ -68,8 +72,10 @@ public class CustomerServiceImpl
     protected Page<CustomerVO> handleGetAll(Integer pageNumber, Integer pageSize)
         throws Exception
     {
-        // TODO implement protected  Page<CustomerVO> handleGetAll(Integer pageNumber, Integer pageSize)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.customer.CustomerService.handleGetAll(Integer pageNumber, Integer pageSize) Not implemented!");
+
+        PageRequest request = PageRequest.of(pageNumber, pageSize);
+        
+        return customerRepository.findAll(request).map(customerDao::toCustomerVO);
     }
 
     /**
@@ -79,8 +85,10 @@ public class CustomerServiceImpl
     protected boolean handleRemove(Long id)
         throws Exception
     {
-        // TODO implement protected  boolean handleRemove(Long id)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.customer.CustomerService.handleRemove(Long id) Not implemented!");
+
+        customerRepository.deleteById(id);
+
+        return true;
     }
 
     /**
@@ -90,8 +98,10 @@ public class CustomerServiceImpl
     protected CustomerVO handleSave(CustomerVO customer)
         throws Exception
     {
-        // TODO implement protected  CustomerVO handleSave(CustomerVO customer)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.customer.CustomerService.handleSave(CustomerVO customer) Not implemented!");
+        Customer c = customerDao.customerVOToEntity(customer);
+        c = customerRepository.save(c);
+
+        return customerDao.toCustomerVO(c);
     }
 
     /**
@@ -101,8 +111,19 @@ public class CustomerServiceImpl
     protected Collection<CustomerVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
         throws Exception
     {
-        // TODO implement protected  Collection<CustomerVO> handleSearch(String criteria, Set<PropertySearchOrder> orderings)
-        throw new UnsupportedOperationException("bw.co.roguesystems.imis.customer.CustomerService.handleSearch(String criteria, Set<PropertySearchOrder> orderings) Not implemented!");
+
+        Sort sort = SortOrderFactory.createSortOrder(orderings);
+
+        Specification<Customer> spec = null;
+
+        if(sort == null) {
+
+            return customerDao.toCustomerVOCollection(customerRepository.findAll(spec));
+        } else {
+
+            return customerDao.toCustomerVOCollection(customerRepository.findAll(spec, sort));
+        }
+
     }
 
     /**
