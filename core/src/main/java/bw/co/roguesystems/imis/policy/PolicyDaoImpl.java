@@ -9,6 +9,7 @@ package bw.co.roguesystems.imis.policy;
 import bw.co.roguesystems.imis.customer.Customer;
 import bw.co.roguesystems.imis.customer.CustomerRepository;
 import bw.co.roguesystems.imis.customer.CustomerVO;
+import bw.co.roguesystems.imis.kyc.KycRepository;
 import bw.co.roguesystems.imis.policy.beneficiary.BeneficiaryRepository;
 import bw.co.roguesystems.imis.policy.type.PolicyType;
 import bw.co.roguesystems.imis.policy.type.PolicyTypeRepository;
@@ -26,19 +27,13 @@ public class PolicyDaoImpl
     extends PolicyDaoBase
 {
     
-    public PolicyDaoImpl(
-        PolicyTypeRepository policyTypeRepository,
-        CustomerRepository customerRepository,
-        BeneficiaryRepository beneficiaryRepository,
-        PolicyRepository policyRepository
-    ) {
+    
 
-        super(
-            policyTypeRepository,
-            customerRepository,
-            beneficiaryRepository,
-            policyRepository
-        );
+    public PolicyDaoImpl(PolicyTypeRepository policyTypeRepository, CustomerRepository customerRepository,
+            BeneficiaryRepository beneficiaryRepository, KycRepository kycRepository,
+            PolicyRepository policyRepository) {
+        super(policyTypeRepository, customerRepository, beneficiaryRepository, kycRepository, policyRepository);
+        //TODO Auto-generated constructor stub
     }
 
     /**
