@@ -36,6 +36,8 @@ export class SearchCustomersImplComponent extends SearchCustomersComponent {
         this.success = this.customerApiStore.success;
         this.loading = this.customerApiStore.loading;
         this.error = this.customerApiStore.error;
+        this.customersTablePaged = false;
+        this.customersTableSignal = this.customerApiStore.dataPage;
     }
 
     override beforeOnInit(form: SearchCustomersVarsForm): SearchCustomersVarsForm{     
@@ -43,5 +45,11 @@ export class SearchCustomersImplComponent extends SearchCustomersComponent {
     }
 
     doNgOnDestroy(): void {
+    }
+
+    override beforeSearchCustomersSearch(form: any): void {
+        this.customerApiStore.search({
+          criteria: this.criteria ? this.criteria : ''
+        })
     }
 }

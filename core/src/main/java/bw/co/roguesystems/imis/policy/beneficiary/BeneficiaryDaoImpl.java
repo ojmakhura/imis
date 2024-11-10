@@ -7,6 +7,8 @@
 package bw.co.roguesystems.imis.policy.beneficiary;
 
 import bw.co.roguesystems.imis.policy.PolicyRepository;
+
+import org.apache.commons.collections.CollectionUtils;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -39,6 +41,9 @@ public class BeneficiaryDaoImpl
         // TODO verify behavior of toBeneficiaryVO
         super.toBeneficiaryVO(source, target);
         // WARNING! No conversion for target.policies (can't convert source.getPolicies():bw.co.roguesystems.imis.policy.Policy to bw.co.roguesystems.imis.policy.PolicyVO
+        if(CollectionUtils.isNotEmpty(source.getPolicies())) {
+            
+        }
     }
 
     /**

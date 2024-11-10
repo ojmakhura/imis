@@ -36,15 +36,15 @@ export const BenefitApiStore = signalStore(
           return benefitApi.findById(data.id, ).pipe(
             tapResponse({
               next: (data: BenefitVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -65,16 +65,16 @@ export const BenefitApiStore = signalStore(
           patchState(store, { loading: true });
           return benefitApi.getAll().pipe(
             tapResponse({
-              next: (data: BenefitVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: BenefitVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -95,16 +95,15 @@ export const BenefitApiStore = signalStore(
           patchState(store, { loading: true });
           return benefitApi.remove(data.id, ).pipe(
             tapResponse({
-              next: (data: boolean | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (removed: boolean | any) => {
+                patchState(
+                  store, 
+                  { 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -126,15 +125,15 @@ export const BenefitApiStore = signalStore(
           return benefitApi.save(data.benefit, ).pipe(
             tapResponse({
               next: (data: BenefitVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -155,16 +154,16 @@ export const BenefitApiStore = signalStore(
           patchState(store, { loading: true });
           return benefitApi.search(data.criteria, ).pipe(
             tapResponse({
-              next: (data: BenefitVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: BenefitVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(

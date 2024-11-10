@@ -36,15 +36,15 @@ export const PolicyApiStore = signalStore(
           return policyApi.findById(data.id, ).pipe(
             tapResponse({
               next: (data: PolicyVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -65,16 +65,16 @@ export const PolicyApiStore = signalStore(
           patchState(store, { loading: true });
           return policyApi.getAll().pipe(
             tapResponse({
-              next: (data: PolicyVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: PolicyVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -96,15 +96,14 @@ export const PolicyApiStore = signalStore(
           return policyApi.remove(data.id, ).pipe(
             tapResponse({
               next: (data: boolean | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -126,15 +125,15 @@ export const PolicyApiStore = signalStore(
           return policyApi.save(data.type, ).pipe(
             tapResponse({
               next: (data: PolicyVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -155,16 +154,16 @@ export const PolicyApiStore = signalStore(
           patchState(store, { loading: true });
           return policyApi.search(data.criteria, ).pipe(
             tapResponse({
-              next: (data: PolicyVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: PolicyVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(

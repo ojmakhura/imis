@@ -36,15 +36,15 @@ export const PolicyTypeApiStore = signalStore(
           return policyTypeApi.findById(data.id, ).pipe(
             tapResponse({
               next: (data: PolicyTypeVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -65,16 +65,16 @@ export const PolicyTypeApiStore = signalStore(
           patchState(store, { loading: true });
           return policyTypeApi.getAll().pipe(
             tapResponse({
-              next: (data: PolicyTypeVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: PolicyTypeVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -95,16 +95,15 @@ export const PolicyTypeApiStore = signalStore(
           patchState(store, { loading: true });
           return policyTypeApi.remove(data.id, ).pipe(
             tapResponse({
-              next: (data: boolean | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (removed: boolean | any) => {
+                patchState(
+                  store, 
+                  { 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -126,15 +125,15 @@ export const PolicyTypeApiStore = signalStore(
           return policyTypeApi.save(data.type, ).pipe(
             tapResponse({
               next: (data: PolicyTypeVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -155,16 +154,16 @@ export const PolicyTypeApiStore = signalStore(
           patchState(store, { loading: true });
           return policyTypeApi.search(data.criteria, ).pipe(
             tapResponse({
-              next: (data: PolicyTypeVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: PolicyTypeVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(

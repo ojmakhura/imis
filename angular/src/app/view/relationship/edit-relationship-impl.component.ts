@@ -31,15 +31,19 @@ import { RelationshipDetailsImplComponent } from '@app/components/relationship/r
   ],
 })
 export class EditRelationshipImplComponent extends EditRelationshipComponent {
+  constructor() {
+    super();
+  }
 
-    constructor() {
-        super();
-    }
+  override beforeOnInit(form: EditRelationshipVarsForm): EditRelationshipVarsForm {
+    return form;
+  }
 
-    override beforeOnInit(form: EditRelationshipVarsForm): EditRelationshipVarsForm{     
-        return form;
-    }
+  doNgOnDestroy(): void {}
 
-    doNgOnDestroy(): void {
-    }
+  override beforeEditRelationshipSave(form: any): void {
+      
+    form.relationship = { ...this.relationshipEditor?.relationshipEditorForm?.value }
+    this.relationshipApiStore.save(form);
+  }
 }

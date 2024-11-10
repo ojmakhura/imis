@@ -36,6 +36,8 @@ export class SearchBeneficiariesImplComponent extends SearchBeneficiariesCompone
         this.success = this.beneficiaryApiStore.success;
         this.loading = this.beneficiaryApiStore.loading;
         this.error = this.beneficiaryApiStore.error;
+        this.beneficiariesTablePaged = false;
+        this.beneficiariesTableSignal = this.beneficiaryApiStore.dataList;
     }
 
     override beforeOnInit(form: SearchBeneficiariesVarsForm): SearchBeneficiariesVarsForm{     
@@ -43,5 +45,11 @@ export class SearchBeneficiariesImplComponent extends SearchBeneficiariesCompone
     }
 
     doNgOnDestroy(): void {
+    }
+
+    override beforeSearchBeneficiariesSearch(form: any): void {
+        this.beneficiaryApiStore.search({
+          criteria: this.criteria ? this.criteria : ''
+        })
     }
 }

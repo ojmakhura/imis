@@ -46,4 +46,9 @@ export class EditCustomerImplComponent extends EditCustomerComponent {
 
     doNgOnDestroy(): void {
     }
+    
+    override beforeEditCustomerSave(form: any): void {
+      form.customer = { ...this.customerEditor?.customerEditorForm?.value };
+      this.customerApiStore.save(form);
+    }
 }

@@ -36,6 +36,8 @@ export class SearchPoliciesImplComponent extends SearchPoliciesComponent {
         this.success = this.policyApiStore.success;
         this.loading = this.policyApiStore.loading;
         this.error = this.policyApiStore.error;
+        this.policiesTablePaged = false;
+        this.policiesTableSignal = this.policyApiStore.dataList;
     }
 
     override beforeOnInit(form: SearchPoliciesVarsForm): SearchPoliciesVarsForm{     
@@ -43,5 +45,12 @@ export class SearchPoliciesImplComponent extends SearchPoliciesComponent {
     }
 
     doNgOnDestroy(): void {
+    }
+
+    override beforeSearchPoliciesSearch(form: any): void {
+        
+      this.policyApiStore.search({
+        criteria: this.criteria ? this.criteria : ''
+      })
     }
 }

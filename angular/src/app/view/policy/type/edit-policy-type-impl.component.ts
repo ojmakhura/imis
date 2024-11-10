@@ -46,4 +46,10 @@ export class EditPolicyTypeImplComponent extends EditPolicyTypeComponent {
 
     doNgOnDestroy(): void {
     }
+
+    override beforeEditPolicyTypeSave(form: any): void {
+        
+      form.policyType = { ...this.policyTypeEditor?.policyTypeEditorForm?.value }
+      this.policyTypeApiStore.save(form);
+    }
 }

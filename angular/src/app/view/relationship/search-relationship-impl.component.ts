@@ -32,6 +32,12 @@ export class SearchRelationshipImplComponent extends SearchRelationshipComponent
 
     constructor() {
         super();
+        this.relationshipApiStore.reset()
+        this.success = this.relationshipApiStore.success;
+        this.loading = this.relationshipApiStore.loading;
+        this.error = this.relationshipApiStore.error;
+        this.relationshipsTablePaged = false;
+        this.relationshipsTableSignal = this.relationshipApiStore.dataList;
     }
 
     override beforeOnInit(form: SearchRelationshipVarsForm): SearchRelationshipVarsForm{     
@@ -39,5 +45,12 @@ export class SearchRelationshipImplComponent extends SearchRelationshipComponent
     }
 
     doNgOnDestroy(): void {
+    }
+
+    override beforeSearchRelationshipSearch(form: any): void {
+        
+      this.relationshipApiStore.search({
+        criteria: this.criteria ? this.criteria : ''
+      });
     }
 }
