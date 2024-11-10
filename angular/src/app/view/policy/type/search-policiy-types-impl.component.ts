@@ -36,6 +36,8 @@ export class SearchPoliciyTypesImplComponent extends SearchPoliciyTypesComponent
         this.success = this.policyTypeApiStore.success;
         this.loading = this.policyTypeApiStore.loading;
         this.error = this.policyTypeApiStore.error;
+        this.policyTypesTablePaged = false;
+        this.policyTypesTableSignal = this.policyTypeApiStore.dataList;
     }
 
     override beforeOnInit(form: SearchPoliciyTypesVarsForm): SearchPoliciyTypesVarsForm{     
@@ -43,5 +45,12 @@ export class SearchPoliciyTypesImplComponent extends SearchPoliciyTypesComponent
     }
 
     doNgOnDestroy(): void {
+    }
+
+    override beforeSearchPoliciyTypesSearch(form: any): void {
+        
+      this.policyTypeApiStore.search({
+        criteria: this.criteria ? this.criteria : ''
+      });
     }
 }

@@ -36,15 +36,15 @@ export const CustomerApiStore = signalStore(
           return customerApi.findById(data.id, ).pipe(
             tapResponse({
               next: (data: CustomerVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -65,16 +65,16 @@ export const CustomerApiStore = signalStore(
           patchState(store, { loading: true });
           return customerApi.getAll().pipe(
             tapResponse({
-              next: (data: CustomerVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: CustomerVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -95,16 +95,16 @@ export const CustomerApiStore = signalStore(
           patchState(store, { loading: true });
           return customerApi.getAllPaged(data.pageNumber, data.pageSize, ).pipe(
             tapResponse({
-              next: (data: Page<CustomerVO> | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataPage: Page<CustomerVO> | any) => {
+                patchState(
+                  store, 
+                  { 
+                    dataPage, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -125,16 +125,16 @@ export const CustomerApiStore = signalStore(
           patchState(store, { loading: true });
           return customerApi.pagedSearch(data.criteria, ).pipe(
             tapResponse({
-              next: (data: Page<CustomerVO> | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataPage: Page<CustomerVO> | any) => {
+                patchState(
+                  store, 
+                  { 
+                     dataPage, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -155,16 +155,15 @@ export const CustomerApiStore = signalStore(
           patchState(store, { loading: true });
           return customerApi.remove(data.id, ).pipe(
             tapResponse({
-              next: (data: boolean | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (removed: boolean | any) => {
+                patchState(
+                  store, 
+                  { 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -186,15 +185,15 @@ export const CustomerApiStore = signalStore(
           return customerApi.save(data.customer, ).pipe(
             tapResponse({
               next: (data: CustomerVO | any) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+                patchState(
+                  store, 
+                  { 
+                     data, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(
@@ -215,16 +214,16 @@ export const CustomerApiStore = signalStore(
           patchState(store, { loading: true });
           return customerApi.search(data.criteria, ).pipe(
             tapResponse({
-              next: (data: CustomerVO[] | any[]) => {
-                //patchState(
-                  //store, 
-                  // { 
-                  //    data, 
-                  //    loading: false, 
-                  //    success: true, 
-                  //    messages: [] 
-                  //}
-                //);
+              next: (dataList: CustomerVO[] | any[]) => {
+                patchState(
+                  store, 
+                  { 
+                    dataList, 
+                     loading: false, 
+                     success: true, 
+                     messages: [] 
+                  }
+                );
               },
               error: (error: any) => {
                 patchState(

@@ -36,6 +36,8 @@ export class SearchBenefitImplComponent extends SearchBenefitComponent {
         this.success = this.benefitApiStore.success;
         this.loading = this.benefitApiStore.loading;
         this.error = this.benefitApiStore.error;
+        this.benefitsTablePaged = false;
+        this.benefitsTableSignal = this.benefitApiStore.dataList;
     }
 
     override beforeOnInit(form: SearchBenefitVarsForm): SearchBenefitVarsForm{     
@@ -43,5 +45,12 @@ export class SearchBenefitImplComponent extends SearchBenefitComponent {
     }
 
     doNgOnDestroy(): void {
+    }
+
+    override beforeSearchBenefitSearch(form: any): void {
+        
+      this.benefitApiStore.search({
+        criteria: this.criteria ? this.criteria : ''
+      })
     }
 }

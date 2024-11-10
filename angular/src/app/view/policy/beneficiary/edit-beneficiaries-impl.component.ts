@@ -46,4 +46,10 @@ export class EditBeneficiariesImplComponent extends EditBeneficiariesComponent {
 
     doNgOnDestroy(): void {
     }
+
+    override beforeEditBeneficiariesSave(form: any): void {
+        
+      form.beneficiary = { ...this.beneficiaryEditor?.beneficiaryEditorForm?.value };
+      this.beneficiaryApiStore.save(form);
+    }
 }

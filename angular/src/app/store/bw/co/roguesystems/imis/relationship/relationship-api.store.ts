@@ -114,7 +114,6 @@ export const RelationshipApiStore = signalStore(
                     error, 
                     loading: false, 
                     success: false,
-                    error: false,
                     messages: [error?.error ? error.error : error] 
                   }
                 );
