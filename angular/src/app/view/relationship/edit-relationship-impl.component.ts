@@ -33,6 +33,17 @@ import { RelationshipDetailsImplComponent } from '@app/components/relationship/r
 export class EditRelationshipImplComponent extends EditRelationshipComponent {
   constructor() {
     super();
+    this.relationshipApiStore.reset()
+    this.success = this.relationshipApiStore.success;
+    this.loading = this.relationshipApiStore.loading;
+    this.error = this.relationshipApiStore.error;
+    this.messages = this.relationshipApiStore.messages;
+
+    this.route.queryParams.subscribe((params: any) => {
+      if (params.id) {
+        this.relationshipApiStore.findById(params);
+      }
+    });
   }
 
   override beforeOnInit(form: EditRelationshipVarsForm): EditRelationshipVarsForm {
@@ -43,7 +54,11 @@ export class EditRelationshipImplComponent extends EditRelationshipComponent {
 
   override beforeEditRelationshipSave(form: any): void {
       
-    form.relationship = { ...this.relationshipEditor?.relationshipEditorForm?.value }
+    form.relationship = { ...this.relationshipEditor?.formGroupControl?.value }
     this.relationshipApiStore.save(form);
+  }
+
+  override get editRelationshipViewDetailsId(): number {
+    return this.relationshipEditor?.formGroupControl?.get('id')?.value;
   }
 }

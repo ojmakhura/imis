@@ -6,6 +6,8 @@
 package bw.co.roguesystems.imis.policy.type;
 
 import java.util.Optional;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -85,6 +87,15 @@ public class PolicyTypeApiImpl extends PolicyTypeApiBase {
     @Override
     public ResponseEntity<?> handleSave(PolicyTypeVO type) {
         try {
+
+            if(type.getCreatedAt() == null) {
+                type.setCreatedAt(java.time.LocalDateTime.now());
+            }
+            
+            if(StringUtils.isBlank(type.getCreatedBy())) {
+                type.setCreatedBy("SYSTEM");
+            }
+
             Optional<?> data = Optional.of(policyTypeService.save(type)); // TODO: Add custom code here;
             ResponseEntity<?> response;
 

@@ -6,6 +6,8 @@
 package bw.co.roguesystems.imis.policy.beneficiary;
 
 import java.util.Optional;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -83,9 +85,18 @@ public class BeneficiaryApiImpl extends BeneficiaryApiBase {
     }
 
     @Override
-    public ResponseEntity<?> handleSave(BeneficiaryVO benefit) {
+    public ResponseEntity<?> handleSave(BeneficiaryVO beneficiary) {
         try {
-            Optional<?> data = Optional.of(beneficiaryService.save(benefit)); // TODO: Add custom code here;
+
+            if(beneficiary.getCreatedAt() == null) {
+                beneficiary.setCreatedAt(java.time.LocalDateTime.now());
+            }
+            
+            if(StringUtils.isBlank(beneficiary.getCreatedBy())) {
+                beneficiary.setCreatedBy("SYSTEM");
+            }
+
+            Optional<?> data = Optional.of(beneficiaryService.save(beneficiary)); // TODO: Add custom code here;
             ResponseEntity<?> response;
 
             if(data.isPresent()) {

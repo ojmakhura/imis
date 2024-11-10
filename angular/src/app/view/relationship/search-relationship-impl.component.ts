@@ -36,6 +36,7 @@ export class SearchRelationshipImplComponent extends SearchRelationshipComponent
         this.success = this.relationshipApiStore.success;
         this.loading = this.relationshipApiStore.loading;
         this.error = this.relationshipApiStore.error;
+        this.messages = this.relationshipApiStore.messages;
         this.relationshipsTablePaged = false;
         this.relationshipsTableSignal = this.relationshipApiStore.dataList;
     }

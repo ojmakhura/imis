@@ -38,6 +38,13 @@ export class EditPolicyTypeImplComponent extends EditPolicyTypeComponent {
         this.success = this.policyTypeApiStore.success;
         this.loading = this.policyTypeApiStore.loading;
         this.error = this.policyTypeApiStore.error;
+        this.messages = this.policyTypeApiStore.messages;
+
+        this.route.queryParams.subscribe((params: any) => {
+          if (params.id) {
+            this.policyTypeApiStore.findById(params);
+          }
+        });
     }
 
     override beforeOnInit(form: EditPolicyTypeVarsForm): EditPolicyTypeVarsForm{     
@@ -49,7 +56,11 @@ export class EditPolicyTypeImplComponent extends EditPolicyTypeComponent {
 
     override beforeEditPolicyTypeSave(form: any): void {
         
-      form.policyType = { ...this.policyTypeEditor?.policyTypeEditorForm?.value }
+      form.type = { ...this.policyTypeEditor?.formGroupControl?.value }
       this.policyTypeApiStore.save(form);
+    }
+
+    override get editPolicyTypeViewDetailsId(): number {
+      return this.policyTypeEditor?.formGroupControl?.get('id')?.value;
     }
 }

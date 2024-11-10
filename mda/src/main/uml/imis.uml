@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MagicDrawProfile="http://www.omg.org/spec/UML/20131001/MagicDrawProfile" xmlns:andromdacommon="http:///schemas/andromdacommon/_n4PuYJ9IEe-UrZV4fABbBg/0" xmlns:andromdapersistence="http:///schemas/andromdapersistence/_n4SxsJ9IEe-UrZV4fABbBg/0" xmlns:andromdapresentation="http:///schemas/andromdapresentation/_n4Q8gJ9IEe-UrZV4fABbBg/0" xmlns:andromdaservice="http:///schemas/andromdaservice/_n4XqMJ9IEe-UrZV4fABbBg/0" xmlns:andromdawebservice="http:///schemas/andromdawebservice/_n4N5MJ9IEe-UrZV4fABbBg/0" xmlns:andromdaxml="http:///schemas/andromdaxml/_n4TYwZ9IEe-UrZV4fABbBg/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/UML/20131001/MagicDrawProfile UML_Standard_Profile.MagicDraw_Profile.profile.uml#_oGjU859IEe-UrZV4fABbBg http:///schemas/andromdacommon/_n4PuYJ9IEe-UrZV4fABbBg/0 andromda-common.profile.uml#_oGiCAp9IEe-UrZV4fABbBg http:///schemas/andromdapersistence/_n4SxsJ9IEe-UrZV4fABbBg/0 andromda-persistence.profile.uml#_oGlJlZ9IEe-UrZV4fABbBg http:///schemas/andromdapresentation/_n4Q8gJ9IEe-UrZV4fABbBg/0 andromda-presentation.profile.uml#_oGmTg59IEe-UrZV4fABbBg http:///schemas/andromdaservice/_n4XqMJ9IEe-UrZV4fABbBg/0 andromda-service.profile.uml#_oGlFq59IEe-UrZV4fABbBg http:///schemas/andromdawebservice/_n4N5MJ9IEe-UrZV4fABbBg/0 andromda-webservice.profile.uml#_oGly459IEe-UrZV4fABbBg http:///schemas/andromdaxml/_n4TYwZ9IEe-UrZV4fABbBg/0 andromda-xml.profile.uml#_oGlyTZ9IEe-UrZV4fABbBg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:MagicDrawProfile="http://www.omg.org/spec/UML/20131001/MagicDrawProfile" xmlns:andromdacommon="http:///schemas/andromdacommon/_hve2AJ9sEe-UrZV4fABbBg/0" xmlns:andromdapersistence="http:///schemas/andromdapersistence/_hvgrMJ9sEe-UrZV4fABbBg/0" xmlns:andromdapresentation="http:///schemas/andromdapresentation/_hvfdEJ9sEe-UrZV4fABbBg/0" xmlns:andromdaservice="http:///schemas/andromdaservice/_hvjHcJ9sEe-UrZV4fABbBg/0" xmlns:andromdawebservice="http:///schemas/andromdawebservice/_hveO8J9sEe-UrZV4fABbBg/0" xmlns:andromdaxml="http:///schemas/andromdaxml/_hvhSQZ9sEe-UrZV4fABbBg/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/UML/20131001/MagicDrawProfile UML_Standard_Profile.MagicDraw_Profile.profile.uml#_BLkCYp9tEe-UrZV4fABbBg http:///schemas/andromdacommon/_hve2AJ9sEe-UrZV4fABbBg/0 andromda-common.profile.uml#_BLqxXp9tEe-UrZV4fABbBg http:///schemas/andromdapersistence/_hvgrMJ9sEe-UrZV4fABbBg/0 andromda-persistence.profile.uml#_BLo7np9tEe-UrZV4fABbBg http:///schemas/andromdapresentation/_hvfdEJ9sEe-UrZV4fABbBg/0 andromda-presentation.profile.uml#_BLrXLJ9tEe-UrZV4fABbBg http:///schemas/andromdaservice/_hvjHcJ9sEe-UrZV4fABbBg/0 andromda-service.profile.uml#_BLntxJ9tEe-UrZV4fABbBg http:///schemas/andromdawebservice/_hveO8J9sEe-UrZV4fABbBg/0 andromda-webservice.profile.uml#_BLoVKJ9tEe-UrZV4fABbBg http:///schemas/andromdaxml/_hvhSQZ9sEe-UrZV4fABbBg/0 andromda-xml.profile.uml#_BLqLnJ9tEe-UrZV4fABbBg">
   <uml:Model xmi:id="eee_1045467100313_135436_1" name="IMISModel" visibility="public" URI="" viewpoint="">
     <ownedComment xmi:id="_11_5_e240333_1154450477439_510234_1" annotatedElement="eee_1045467100313_135436_1" body="Author:Saratoga.&#xA;Created:01.08.06 18:41.&#xA;Title:.&#xA;Comment:.&#xA;"/>
     <packageImport xmi:id="_0primitiveTypesIMISModel">
@@ -73,6 +73,10 @@
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729543917939_716283_7299" name="" visibility="public"/>
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729543917940_595164_7300" name="" visibility="public" value="*"/>
             </ownedAttribute>
+            <ownedAttribute xmi:id="_19_0_4_90e0298_1731232211992_891103_7708" name="" visibility="public" type="_19_0_4_90e0298_1730702373912_120116_7655" isUnique="false" aggregation="shared" association="_19_0_4_90e0298_1731232211992_941227_7707">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1731232229162_26872_7716" name="" visibility="public"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1731232229162_341756_7717" name="" visibility="public" value="*"/>
+            </ownedAttribute>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_90e0298_1729331579351_910692_4817" name="CustomerVO" visibility="public">
             <generalization xmi:id="_19_0_3_90e0298_1729331580080_492693_4875" general="_19_0_3_90e0298_1729331580119_239456_5013"/>
@@ -127,6 +131,10 @@
             <ownedAttribute xmi:id="_19_0_3_90e0298_1729332229824_643007_5553" name="street" visibility="public" type="_9_0_1fe00f9_1119336925531_364079_66" isUnique="false">
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729332229829_240024_5579" name="" visibility="public"/>
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729332229829_965094_5578" name="" visibility="public" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_19_0_4_90e0298_1731232352780_802186_7731" name="kyc" visibility="public" type="_19_0_4_90e0298_1730702373913_593045_7656">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1731232366823_339439_7732" name="" visibility="public"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1731232366823_730253_7733" name="" visibility="public" value="*"/>
             </ownedAttribute>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_90e0298_1729331579351_779312_4818" name="CustomerService" visibility="public">
@@ -264,6 +272,8 @@
             <ownedAttribute xmi:id="_19_0_3_90e0298_1729333779072_619697_6932" name="divorced" visibility="public" type="_9_0_1fe00f9_1119336925531_364079_66"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Dependency" xmi:id="_19_0_3_90e0298_1729543891811_80225_7288" name="" visibility="public" client="_19_0_3_90e0298_1729331579348_369647_4816" supplier="_19_0_3_90e0298_1729332661303_200013_6046"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_90e0298_1731232211992_941227_7707" name="" visibility="public" memberEnd="_19_0_4_90e0298_1731232211992_891103_7708 _19_0_4_90e0298_1731232211993_573884_7709"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_19_0_4_90e0298_1731232725807_122839_7753" name="" visibility="public" client="_19_0_3_90e0298_1729331579348_369647_4816" supplier="_19_0_4_90e0298_1730702373912_120116_7655"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_90e0298_1729331580118_984778_5008" name="Auditable" visibility="public">
           <ownedAttribute xmi:id="_19_0_3_90e0298_1729331580118_85548_5009" name="createdAt" visibility="public" type="_19_0_3_90e0298_1670945619297_671992_4871" isUnique="false">
@@ -605,10 +615,6 @@
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1729865502517_813912_7928" name="" visibility="public"/>
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1729865502517_604498_7927" name="" visibility="public" value="1"/>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_19_0_4_90e0298_1730703201433_195790_8120" name="" visibility="public" type="_19_0_4_90e0298_1730702373912_120116_7655" isUnique="false" aggregation="shared" association="_19_0_4_90e0298_1730703201432_646799_8119">
-              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1730703342111_907684_8264" name="" visibility="public"/>
-              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1730703342111_431226_8265" name="" visibility="public" value="*"/>
-            </ownedAttribute>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_90e0298_1729332661304_849334_6047" name="PolicyApi" visibility="public">
             <ownedOperation xmi:id="_19_0_3_90e0298_1729332661320_760520_6058" name="findById" visibility="public">
@@ -803,7 +809,7 @@
               </ownedOperation>
               <ownedOperation xmi:id="_19_0_3_90e0298_1729333809098_78077_6979" name="save" visibility="public">
                 <ownedParameter xmi:id="_19_0_3_90e0298_1729333809112_29714_7014" name="" visibility="public" type="_19_0_3_90e0298_1729333809059_38635_6936" direction="return"/>
-                <ownedParameter xmi:id="_19_0_3_90e0298_1729333809112_797259_7015" name="benefit" visibility="public" type="_19_0_3_90e0298_1729333809059_38635_6936"/>
+                <ownedParameter xmi:id="_19_0_3_90e0298_1729333809112_797259_7015" name="beneficiary" visibility="public" type="_19_0_3_90e0298_1729333809059_38635_6936"/>
               </ownedOperation>
               <ownedOperation xmi:id="_19_0_3_90e0298_1729333809098_84681_6980" name="search" visibility="public">
                 <ownedParameter xmi:id="_19_0_3_90e0298_1729333809113_442210_7016" name="criteria" visibility="public" type="_9_0_1fe00f9_1119336925531_364079_66">
@@ -828,7 +834,7 @@
               </ownedOperation>
               <ownedOperation xmi:id="_19_0_3_90e0298_1729333809099_580693_6983" name="save" visibility="public">
                 <ownedParameter xmi:id="_19_0_3_90e0298_1729333809115_458242_7027" name="" visibility="public" type="_19_0_3_90e0298_1729333809059_38635_6936" direction="return"/>
-                <ownedParameter xmi:id="_19_0_3_90e0298_1729333809115_686232_7028" name="benefit" visibility="public" type="_19_0_3_90e0298_1729333809059_38635_6936"/>
+                <ownedParameter xmi:id="_19_0_3_90e0298_1729333809115_686232_7028" name="beneficiary" visibility="public" type="_19_0_3_90e0298_1729333809059_38635_6936"/>
               </ownedOperation>
               <ownedOperation xmi:id="_19_0_3_90e0298_1729333809100_629579_6984" name="remove" visibility="public">
                 <ownedParameter xmi:id="_19_0_3_90e0298_1729333809116_662162_7030" name="" visibility="public" type="_9_0_1fe00f9_1119336925531_736816_6" direction="return"/>
@@ -879,8 +885,6 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_19_0_3_90e0298_1729544808381_118170_7648" name="" visibility="public" memberEnd="_19_0_3_90e0298_1729544808382_621449_7649 _19_0_3_90e0298_1729544808382_757433_7650"/>
           <packagedElement xmi:type="uml:Dependency" xmi:id="_19_0_3_90e0298_1729544813810_221314_7661" name="" visibility="public" client="_19_0_3_90e0298_1729332661303_200013_6046" supplier="_19_0_3_90e0298_1729333809057_273992_6935"/>
-          <packagedElement xmi:type="uml:Association" xmi:id="_19_0_4_90e0298_1730703201432_646799_8119" name="" visibility="public" memberEnd="_19_0_4_90e0298_1730703201433_195790_8120 _19_0_4_90e0298_1730703201433_172920_8121"/>
-          <packagedElement xmi:type="uml:Dependency" xmi:id="_19_0_4_90e0298_1730703433999_293794_8279" name="" visibility="public" client="_19_0_3_90e0298_1729332661303_200013_6046" supplier="_19_0_4_90e0298_1730702373912_120116_7655"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_19_0_3_90e0298_1729334278623_482205_7296" name="relationship" visibility="public" URI="">
           <packagedElement xmi:type="uml:Class" xmi:id="_19_0_3_90e0298_1729334278625_316844_7297" name="Relationship" visibility="public">
@@ -993,9 +997,9 @@
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1730702820642_878183_8073" name="" visibility="public" value="1"/>
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1730702820642_434955_8074" name="" visibility="public" value="1"/>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_19_0_4_90e0298_1730703201433_172920_8121" name="" visibility="public" type="_19_0_3_90e0298_1729332661303_200013_6046" isUnique="false" association="_19_0_4_90e0298_1730703201432_646799_8119">
-              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1730703215082_68010_8128" name="" visibility="public" value="1"/>
-              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1730703215083_611009_8129" name="" visibility="public" value="1"/>
+            <ownedAttribute xmi:id="_19_0_4_90e0298_1731232211993_573884_7709" name="" visibility="public" type="_19_0_3_90e0298_1729331579348_369647_4816" isUnique="false" association="_19_0_4_90e0298_1731232211992_941227_7707">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1731232307718_760532_7725" name="" visibility="public" value="1"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1731232307718_36959_7726" name="" visibility="public" value="1"/>
             </ownedAttribute>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_19_0_4_90e0298_1730702373913_593045_7656" name="KycVO" visibility="public">
@@ -1016,7 +1020,7 @@
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1730702826843_541223_8077" name="" visibility="public" value="1"/>
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1730702826843_570545_8076" name="" visibility="public" value="1"/>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_19_0_4_90e0298_1730703518048_20125_8285" name="policy" visibility="public" type="_19_0_3_90e0298_1729332661305_994079_6049" isUnique="false">
+            <ownedAttribute xmi:id="_19_0_4_90e0298_1730703518048_20125_8285" name="customer" visibility="public" type="_19_0_3_90e0298_1729331579351_910692_4817" isUnique="false">
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1730703528725_36888_8287" name="" visibility="public" value="1"/>
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1730703528726_892547_8288" name="" visibility="public" value="1"/>
             </ownedAttribute>
@@ -1095,7 +1099,7 @@
             <ownedAttribute xmi:id="_19_0_4_90e0298_1730702555273_286209_8026" name="proofOfAddress" visibility="public" type="_9_0_1fe00f9_1119336925531_364079_66"/>
             <ownedAttribute xmi:id="_19_0_4_90e0298_1730702570722_748464_8028" name="proofOfEmployment" visibility="public" type="_9_0_1fe00f9_1119336925531_364079_66"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Dependency" xmi:id="_19_0_4_90e0298_1730703428495_112978_8276" name="" visibility="public" client="_19_0_4_90e0298_1730702373912_120116_7655" supplier="_19_0_3_90e0298_1729332661303_200013_6046"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_19_0_4_90e0298_1731232719249_629797_7750" name="" visibility="public" client="_19_0_4_90e0298_1730702373912_120116_7655" supplier="_19_0_3_90e0298_1729331579348_369647_4816"/>
         </packagedElement>
       </packagedElement>
     </packagedElement>
@@ -1248,7 +1252,7 @@
                   </node>
                 </doActivity>
               </subvertex>
-              <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729340329405_550743_8256" name="Customer Details" visibility="public"/>
+              <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729340329405_550743_8256" name="Customer View" visibility="public"/>
             </region>
           </ownedBehavior>
         </packagedElement>
@@ -1401,6 +1405,11 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729340587441_695807_10038" name="" visibility="public" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729340587441_130379_10037" name="" visibility="public" value="1"/>
           </ownedAttribute>
+          <ownedAttribute xmi:id="_19_0_4_90e0298_1731232418043_363898_7737" name="kyc" visibility="public" type="_19_0_4_90e0298_1730702373913_593045_7656">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_4_90e0298_1731232418044_950591_7739" name="" visibility="public"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1731232418044_689510_7738" name="" visibility="public" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_19_0_4_90e0298_1731232430726_25349_7740" name="addKyc" visibility="public" type="_9_0_1fe00f9_1119336925531_364079_66"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_19_0_3_90e0298_1729340460584_836729_9886" name="" visibility="public" client="_19_0_3_90e0298_1729340329395_236407_8125" supplier="_19_0_3_90e0298_1729331579356_92607_4822"/>
       </packagedElement>
@@ -1552,7 +1561,7 @@
                   </node>
                 </doActivity>
               </subvertex>
-              <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424280271_258201_6889" name="Policy Details" visibility="public"/>
+              <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424280271_258201_6889" name="Policy View" visibility="public"/>
             </region>
           </ownedBehavior>
         </packagedElement>
@@ -1577,6 +1586,10 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544354605_420502_7387" name="" visibility="public"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544354605_782075_7386" name="" visibility="public" value="1"/>
           </ownedAttribute>
+          <ownedAttribute xmi:id="_19_0_3_90e0298_1729544362880_933047_7456" name="policyType" visibility="public" type="_19_0_3_90e0298_1729332417011_648048_5584">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544362885_168491_7463" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544362884_961772_7462" name="" visibility="public" value="1"/>
+          </ownedAttribute>
           <ownedAttribute xmi:id="_19_0_3_90e0298_1729544362883_591371_7459" name="status" visibility="public" type="_19_0_3_90e0298_1729544210255_146474_7332" isUnique="false">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544362887_757535_7469" name="" visibility="public" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544362886_807319_7468" name="" visibility="public" value="1"/>
@@ -1594,10 +1607,6 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_4_90e0298_1729865467874_159833_7924" name="" visibility="public" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_19_0_3_90e0298_1729544362880_1926_7455" name="premium" visibility="public" type="_9_0_1fe00f9_1119336925531_221770_56" isUnique="false"/>
-          <ownedAttribute xmi:id="_19_0_3_90e0298_1729544362880_933047_7456" name="policyType" visibility="public" type="_19_0_3_90e0298_1729332417011_648048_5584">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544362885_168491_7463" name="" visibility="public" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544362884_961772_7462" name="" visibility="public" value="1"/>
-          </ownedAttribute>
           <ownedAttribute xmi:id="_19_0_3_90e0298_1729544362881_296472_7457" name="customer" visibility="public" type="_19_0_3_90e0298_1729331579351_910692_4817" isUnique="false">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544362885_31697_7465" name="" visibility="public" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544362885_375418_7464" name="" visibility="public" value="1"/>
@@ -1612,6 +1621,10 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544355652_30004_7415" name="" visibility="public"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544355651_523448_7414" name="" visibility="public" value="1"/>
           </ownedAttribute>
+          <ownedAttribute xmi:id="_19_0_3_90e0298_1729544474203_545122_7501" name="policyType" visibility="public" type="_19_0_3_90e0298_1729332417011_648048_5584">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544474205_867374_7509" name="" visibility="public" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544474205_755234_7508" name="" visibility="public" value="1"/>
+          </ownedAttribute>
           <ownedAttribute xmi:id="_19_0_3_90e0298_1729544474201_329961_7498" name="status" visibility="public" type="_19_0_3_90e0298_1729544210255_146474_7332" isUnique="false">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544474205_784497_7505" name="" visibility="public" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544474204_803470_7504" name="" visibility="public" value="1"/>
@@ -1625,10 +1638,6 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544474205_822226_7506" name="" visibility="public" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_19_0_3_90e0298_1729544474203_558782_7500" name="premium" visibility="public" type="_9_0_1fe00f9_1119336925531_221770_56" isUnique="false"/>
-          <ownedAttribute xmi:id="_19_0_3_90e0298_1729544474203_545122_7501" name="policyType" visibility="public" type="_19_0_3_90e0298_1729332417011_648048_5584">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544474205_867374_7509" name="" visibility="public" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544474205_755234_7508" name="" visibility="public" value="1"/>
-          </ownedAttribute>
           <ownedAttribute xmi:id="_19_0_3_90e0298_1729544474204_277814_7502" name="customer" visibility="public" type="_19_0_3_90e0298_1729331579351_910692_4817" isUnique="false">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19_0_3_90e0298_1729544474206_871558_7512" name="" visibility="public" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19_0_3_90e0298_1729544474206_659028_7511" name="" visibility="public" value="1"/>
@@ -1785,7 +1794,7 @@
                     </node>
                   </doActivity>
                 </subvertex>
-                <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281202_573039_7256" name="Edit Beneficiaries" visibility="public"/>
+                <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281202_573039_7256" name="Edit Beneficiary" visibility="public"/>
                 <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281203_56389_7257" name="Save" visibility="public">
                   <doActivity xmi:type="uml:Activity" xmi:id="_19_0_3_90e0298_1729424288617_210779_7928" name="Call doSaveCrop()" visibility="public" isReentrant="true" node="_19_0_3_90e0298_1729424293807_957093_8563">
                     <node xmi:type="uml:CallOperationAction" xmi:id="_19_0_3_90e0298_1729424293807_957093_8563" name="" visibility="public">
@@ -1832,7 +1841,7 @@
                     </node>
                   </doActivity>
                 </subvertex>
-                <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281203_595984_7263" name="Beneficiaries Details" visibility="public"/>
+                <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281203_595984_7263" name="Beneficiary View" visibility="public"/>
               </region>
             </ownedBehavior>
           </packagedElement>
@@ -2064,7 +2073,7 @@
                     </node>
                   </doActivity>
                 </subvertex>
-                <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281218_437129_7367" name="Search Policiy Types" visibility="public"/>
+                <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281218_437129_7367" name="Search Policy Types" visibility="public"/>
                 <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281218_334267_7368" name="Delete" visibility="public">
                   <doActivity xmi:type="uml:Activity" xmi:id="_19_0_3_90e0298_1729424288628_191562_8042" name="Call doDelete()" visibility="public" isReentrant="true" node="_19_0_3_90e0298_1729424301832_198227_9085">
                     <node xmi:type="uml:CallOperationAction" xmi:id="_19_0_3_90e0298_1729424301832_198227_9085" name="" visibility="public">
@@ -2084,7 +2093,7 @@
                     </node>
                   </doActivity>
                 </subvertex>
-                <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281218_779065_7370" name="Policy Type Details" visibility="public"/>
+                <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424281218_779065_7370" name="Policy Type View" visibility="public"/>
               </region>
             </ownedBehavior>
           </packagedElement>
@@ -2162,7 +2171,6 @@
             <packagedElement xmi:type="uml:UseCase" xmi:id="_19_0_3_90e0298_1729424371293_275828_11733" name="Benefit" visibility="public" classifierBehavior="_19_0_3_90e0298_1729424371313_963033_11778">
               <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_19_0_3_90e0298_1729424371313_963033_11778" name="Benefit" visibility="public" isReentrant="true">
                 <nestedClassifier xmi:type="uml:Class" xmi:id="_19_0_3_90e0298_1729424371325_85739_11824" name="BenefitController" visibility="public"/>
-                <nestedClassifier xmi:type="uml:Signal" xmi:id="_19_0_4_90e0298_1729937278207_515553_7397" name="vo" visibility="public"/>
                 <region xmi:id="_19_0_3_90e0298_1729424371318_101290_11802" name="" visibility="public">
                   <transition xmi:id="_19_0_3_90e0298_1729424371330_788963_11886" name="" visibility="public" source="_19_0_3_90e0298_1729424371332_521890_11901" target="_19_0_3_90e0298_1729424371333_854461_11902">
                     <effect xmi:type="uml:Activity" xmi:id="_19_0_3_90e0298_1729424371343_756582_11987" name="" visibility="public" isReentrant="true" node="_19_0_3_90e0298_1729424371358_419711_12103">
@@ -2308,7 +2316,7 @@
                       </node>
                     </doActivity>
                   </subvertex>
-                  <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424371333_399763_11909" name="Benefit Details" visibility="public"/>
+                  <subvertex xmi:type="uml:State" xmi:id="_19_0_3_90e0298_1729424371333_399763_11909" name="Benefit View" visibility="public"/>
                 </region>
               </ownedBehavior>
             </packagedElement>
@@ -2536,7 +2544,7 @@
                   </node>
                 </doActivity>
               </subvertex>
-              <subvertex xmi:type="uml:State" xmi:id="_19_0_4_90e0298_1729943336931_456243_7669" name="Relationships Details" visibility="public"/>
+              <subvertex xmi:type="uml:State" xmi:id="_19_0_4_90e0298_1729943336931_456243_7669" name="Relationship View" visibility="public"/>
             </region>
           </ownedBehavior>
         </packagedElement>
@@ -2796,550 +2804,552 @@
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_be00301_1073394351331_445580_2profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oGoIoJ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_oGjU859IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BLr_zp9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_BLkCYp9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.profile.uml#_be00301_1073394351331_445580_2"/>
     </profileApplication>
     <profileApplication xmi:id="_17_0_4beta_8ca0285_1361349406965_180847_3086profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oGsaEJ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_oGiqAZ9IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BLwPoZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_BLqMvJ9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.Dependency_Matrix_Profile.profile.uml#_17_0_4beta_8ca0285_1361349406965_180847_3086"/>
     </profileApplication>
     <profileApplication xmi:id="_9_0_2_12ab03bf_1120853175671_502460_0profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oGu2UZ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="andromda-process.profile.uml#_oGlxw59IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BLyr4Z9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="andromda-process.profile.uml#_BLqMMp9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="andromda-process.profile.uml#_9_0_2_12ab03bf_1120853175671_502460_0"/>
     </profileApplication>
     <profileApplication xmi:id="_9_0_2_12ab03bf_1120852932765_76536_0profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oGzHwZ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="andromda-webservice.profile.uml#_oGly459IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BLz6AZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="andromda-webservice.profile.uml#_BLoVKJ9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="andromda-webservice.profile.uml#_9_0_2_12ab03bf_1120852932765_76536_0"/>
     </profileApplication>
     <profileApplication xmi:id="_8a70287_1078771814628_224704_589profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oG3ZMZ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="andromda-common.profile.uml#_oGiCAp9IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL1IIZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="andromda-common.profile.uml#_BLqxXp9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="andromda-common.profile.uml#_8a70287_1078771814628_224704_589"/>
     </profileApplication>
     <profileApplication xmi:id="_9_0_2_12ab03bf_1120853223187_211304_0profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oG7DkJ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="andromda-presentation.profile.uml#_oGmTg59IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL1vMZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="andromda-presentation.profile.uml#_BLrXLJ9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="andromda-presentation.profile.uml#_9_0_2_12ab03bf_1120853223187_211304_0"/>
     </profileApplication>
     <profileApplication xmi:id="_9_0_2_12ab03bf_1120853774265_65497_87profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oG8RsZ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="andromda-persistence.profile.uml#_oGlJlZ9IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL29UZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="andromda-persistence.profile.uml#_BLo7np9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="andromda-persistence.profile.uml#_9_0_2_12ab03bf_1120853774265_65497_87"/>
     </profileApplication>
     <profileApplication xmi:id="_9_5_1_12ab03bf_1166891487968_530029_0profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oG-G4Z9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="andromda-messaging.profile.uml#_oGmXOJ9IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL4LcZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="andromda-messaging.profile.uml#_BLq0fp9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="andromda-messaging.profile.uml#_9_5_1_12ab03bf_1166891487968_530029_0"/>
     </profileApplication>
     <profileApplication xmi:id="_9_0_2_12ab03bf_1120852471296_986007_0profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oG_VAZ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="andromda-xml.profile.uml#_oGlyTZ9IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL5ZkZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="andromda-xml.profile.uml#_BLqLnJ9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="andromda-xml.profile.uml#_9_0_2_12ab03bf_1120852471296_986007_0"/>
     </profileApplication>
     <profileApplication xmi:id="_19_0beta_8bb027e_1484121177637_661582_4502profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oHBKMJ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_oGmXKJ9IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL6nsZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_BLpkpZ9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Find_By_Text.profile.uml#_19_0beta_8bb027e_1484121177637_661582_4502"/>
     </profileApplication>
     <profileApplication xmi:id="_11_5_be00301_1153310565718_226811_161profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oHCYUZ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_oGkgHZ9IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL710Z9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_BLpk9J9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.DSL_Customization.profile.uml#_11_5_be00301_1153310565718_226811_161"/>
     </profileApplication>
     <profileApplication xmi:id="_19_0_3_90e0298_1599848131891_860297_4795profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oHENgJ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="andromda-service.profile.uml#_oGlFq59IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL9D8Z9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="andromda-service.profile.uml#_BLntxJ9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="andromda-service.profile.uml#_19_0_3_90e0298_1599848131891_860297_4795"/>
     </profileApplication>
     <profileApplication xmi:id="_11_5_f720368_1159529670215_231387_1profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oHFboZ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Validation_Profile.profile.uml#_oGmXVp9IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL-SEZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.Validation_Profile.profile.uml#_BLra0Z9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.Validation_Profile.profile.uml#_11_5_f720368_1159529670215_231387_1"/>
     </profileApplication>
     <profileApplication xmi:id="_16_6_8f90291_1254846042821_86742_517profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oHGpwZ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_oGlIP59IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BL_gMZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_BLoT0p9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="UML_Standard_Profile.MagicDraw_Profile.Traceability_customization.profile.uml#_16_6_8f90291_1254846042821_86742_517"/>
     </profileApplication>
     <profileApplication xmi:id="_9_0_2_12ab03bf_1120852637390_857322_0profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oHH34Z9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="andromda-meta.profile.uml#_oGlFbJ9IEe-UrZV4fABbBg"/>
+      <eAnnotations xmi:id="_BMAuUZ9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="andromda-meta.profile.uml#_BLpktZ9tEe-UrZV4fABbBg"/>
       </eAnnotations>
       <appliedProfile href="andromda-meta.profile.uml#_9_0_2_12ab03bf_1120852637390_857322_0"/>
     </profileApplication>
     <profileApplication xmi:id="_0profileApplicationIMISModel">
-      <eAnnotations xmi:id="_oH1plZ9IEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <eAnnotations xmi:id="_BMXTop9tEe-UrZV4fABbBg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
       </eAnnotations>
       <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <MagicDrawProfile:auxiliaryResource xmi:id="_oHPMoJ9IEe-UrZV4fABbBg" base_Element="magicdraw_uml_standard_profile_v_0001"/>
-  <MagicDrawProfile:CustomSort xmi:id="_oHWhZ59IEe-UrZV4fABbBg" base_Element="_19_0_4_90e0298_1729943336877_955010_7479" sortPriority="100.0"/>
-  <MagicDrawProfile:CustomSort xmi:id="_oHWhaJ9IEe-UrZV4fABbBg" base_Element="_19_0_3_90e0298_1729424276522_402441_6540" sortPriority="90.0"/>
-  <MagicDrawProfile:CustomSort xmi:id="_oHWhaZ9IEe-UrZV4fABbBg" base_Element="_19_0_3_90e0298_1729340328295_300739_8014" sortPriority="60.0"/>
-  <andromdawebservice:WebService xmi:id="_oHg5gZ9IEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/relationship" base_Class="_19_0_3_90e0298_1729334278628_66010_7301"/>
-  <andromdawebservice:WebService xmi:id="_oHg5gp9IEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/kyc" base_Class="_19_0_4_90e0298_1730702373914_726548_7659"/>
-  <andromdawebservice:WebService xmi:id="_oHg5g59IEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/policy/beneficiary" base_Class="_19_0_3_90e0298_1729333809061_202934_6939"/>
-  <andromdawebservice:WebService xmi:id="_oHg5hJ9IEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/policy" base_Class="_19_0_3_90e0298_1729332661304_849334_6047"/>
-  <andromdawebservice:WebService xmi:id="_oHg5hZ9IEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/policy/type/benefit" base_Class="_19_0_3_90e0298_1729333095604_174669_6390"/>
-  <andromdawebservice:WebService xmi:id="_oHg5hp9IEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/policy/type" base_Class="_19_0_3_90e0298_1729332417011_335281_5587"/>
-  <andromdawebservice:WebService xmi:id="_oHg5h59IEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/customer" base_Class="_19_0_3_90e0298_1729331579356_92607_4822"/>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhggJ9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_4_90e0298_1730702373976_15572_7712" andromda_REST_path_static="true">
+  <MagicDrawProfile:auxiliaryResource xmi:id="_BMFm0J9tEe-UrZV4fABbBg" base_Element="magicdraw_uml_standard_profile_v_0001"/>
+  <MagicDrawProfile:CustomSort xmi:id="_BMIqJ59tEe-UrZV4fABbBg" base_Element="_19_0_4_90e0298_1729943336877_955010_7479" sortPriority="100.0"/>
+  <MagicDrawProfile:CustomSort xmi:id="_BMIqKJ9tEe-UrZV4fABbBg" base_Element="_19_0_3_90e0298_1729424276522_402441_6540" sortPriority="90.0"/>
+  <MagicDrawProfile:CustomSort xmi:id="_BMIqKZ9tEe-UrZV4fABbBg" base_Element="_19_0_3_90e0298_1729340328295_300739_8014" sortPriority="60.0"/>
+  <andromdawebservice:WebService xmi:id="_BMM7uZ9tEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/relationship" base_Class="_19_0_3_90e0298_1729334278628_66010_7301"/>
+  <andromdawebservice:WebService xmi:id="_BMM7up9tEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/kyc" base_Class="_19_0_4_90e0298_1730702373914_726548_7659"/>
+  <andromdawebservice:WebService xmi:id="_BMM7u59tEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/policy/beneficiary" base_Class="_19_0_3_90e0298_1729333809061_202934_6939"/>
+  <andromdawebservice:WebService xmi:id="_BMM7vJ9tEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/policy" base_Class="_19_0_3_90e0298_1729332661304_849334_6047"/>
+  <andromdawebservice:WebService xmi:id="_BMM7vZ9tEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/policy/type/benefit" base_Class="_19_0_3_90e0298_1729333095604_174669_6390"/>
+  <andromdawebservice:WebService xmi:id="_BMM7vp9tEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/policy/type" base_Class="_19_0_3_90e0298_1729332417011_335281_5587"/>
+  <andromdawebservice:WebService xmi:id="_BMM7v59tEe-UrZV4fABbBg" andromda_REST="true" andromda_REST_path="/customer" base_Class="_19_0_3_90e0298_1729331579356_92607_4822"/>
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7wJ9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_4_90e0298_1730702373976_15572_7712" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Find Farm by id&quot;, description = &quot;Get the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhggZ9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_4_90e0298_1730702373976_362273_7714" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7wZ9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_4_90e0298_1730702373976_362273_7714" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Remove farm by id&quot;, description = &quot;Remove the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhggp9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729332661321_343641_6061">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7wp9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729332661321_343641_6061">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Get Farms&quot;, description = &quot;Get all farms in the data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgg59IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_4_90e0298_1730702373976_17395_7713">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7w59tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_4_90e0298_1730702373976_17395_7713">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Save Farm&quot;, description = &quot;Save a farm to data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhghJ9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729334278669_161429_7350">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7xJ9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729334278669_161429_7350">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Save Farm&quot;, description = &quot;Save a farm to data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhghZ9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729334278670_971895_7351" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7xZ9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729334278670_971895_7351" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Remove farm by id&quot;, description = &quot;Remove the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhghp9IEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_4_90e0298_1730702373976_304677_7716">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7xp9tEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_4_90e0298_1730702373976_304677_7716">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Search Farms&quot;, description = &quot;Search modules based on the criteria&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgh59IEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729334278670_669944_7353">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7x59tEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729334278670_669944_7353">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Search Farms&quot;, description = &quot;Search modules based on the criteria&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgiJ9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_4_90e0298_1730702373976_201679_7715">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7yJ9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_4_90e0298_1730702373976_201679_7715">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Get Farms&quot;, description = &quot;Get all farms in the data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgiZ9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729334278670_245685_7352">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7yZ9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729334278670_245685_7352">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Get Farms&quot;, description = &quot;Get all farms in the data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgip9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729332661320_636110_6060" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7yp9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729332661320_636110_6060" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Remove farm by id&quot;, description = &quot;Remove the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgi59IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729332661320_506439_6059">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7y59tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729332661320_506439_6059">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Save Farm&quot;, description = &quot;Save a farm to data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgjJ9IEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729333096108_325079_6432">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7zJ9tEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729333096108_325079_6432">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Search Farms&quot;, description = &quot;Search modules based on the criteria&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgjZ9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729334278669_611108_7349" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7zZ9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729334278669_611108_7349" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Find Farm by id&quot;, description = &quot;Get the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgjp9IEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729333809100_588506_6986">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7zp9tEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729333809100_588506_6986">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Search Farms&quot;, description = &quot;Search modules based on the criteria&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgj59IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729333809100_558728_6985">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7z59tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729333809100_558728_6985">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Get Farms&quot;, description = &quot;Get all farms in the data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgkJ9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729333809099_41920_6982" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM70J9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729333809099_41920_6982" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Find Farm by id&quot;, description = &quot;Get the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgkZ9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729333809100_629579_6984" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM70Z9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729333809100_629579_6984" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Remove farm by id&quot;, description = &quot;Remove the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgkp9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729333809099_580693_6983">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM70p9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729333809099_580693_6983">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Save Farm&quot;, description = &quot;Save a farm to data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhgk59IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729332417528_551279_5625" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMM7059tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729332417528_551279_5625" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Find Farm by id&quot;, description = &quot;Get the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhglJ9IEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729332661321_900328_6062">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNioJ9tEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729332661321_900328_6062">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Search Farms&quot;, description = &quot;Search modules based on the criteria&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHhglZ9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729332661320_760520_6058" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNioZ9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729332661320_760520_6058" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Find Farm by id&quot;, description = &quot;Get the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHkJ9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729333096108_720192_6431">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNiop9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729333096108_720192_6431">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Get Farms&quot;, description = &quot;Get all farms in the data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHkZ9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729332417528_665368_5626">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNio59tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729332417528_665368_5626">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Save Farm&quot;, description = &quot;Save a farm to data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHkp9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729333096107_719480_6430" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNipJ9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729333096107_719480_6430" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Remove farm by id&quot;, description = &quot;Remove the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHk59IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729333096107_307999_6428" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNipZ9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729333096107_307999_6428" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Find Farm by id&quot;, description = &quot;Get the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHlJ9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729333096107_985332_6429">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNipp9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729333096107_985332_6429">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Save Farm&quot;, description = &quot;Save a farm to data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHlZ9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729332417528_702751_5627" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNip59tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729332417528_702751_5627" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Remove farm by id&quot;, description = &quot;Remove the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHlp9IEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729332417528_892718_5629">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNiqJ9tEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729332417528_892718_5629">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Search Farms&quot;, description = &quot;Search modules based on the criteria&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHl59IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729331580084_784695_4889" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNiqZ9tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729331580084_784695_4889" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Find Farm by id&quot;, description = &quot;Get the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHmJ9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729332417528_941674_5628">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNiqp9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729332417528_941674_5628">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Get Farms&quot;, description = &quot;Get all farms in the data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHmZ9IEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729331580085_505439_4891" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNiq59tEe-UrZV4fABbBg" andromda_REST_path="/{id}" andromda_REST_request_type="DELETE" base_Operation="_19_0_3_90e0298_1729331580085_505439_4891" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Remove farm by id&quot;, description = &quot;Remove the farm with the given id&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHmp9IEe-UrZV4fABbBg" andromda_REST_path="/search/page" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729331580086_478005_4895" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNirJ9tEe-UrZV4fABbBg" andromda_REST_path="/search/page" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729331580086_478005_4895" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Search Farms Page&quot;, description = &quot;Get {pageSize} farms for a particular {pageNumber} given a search criteria&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHm59IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729331580085_756656_4892">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNirZ9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729331580085_756656_4892">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Get Farms&quot;, description = &quot;Get all farms in the data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHnJ9IEe-UrZV4fABbBg" andromda_REST_path="/page/{pageNumber}/size/{pageSize}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729331580086_490816_4894" andromda_REST_path_static="true">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNirp9tEe-UrZV4fABbBg" andromda_REST_path="/page/{pageNumber}/size/{pageSize}" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729331580086_490816_4894" andromda_REST_path_static="true">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Get Farms Page&quot;, description = &quot;Get {pageSize} farms with for a particular {pageNumber}&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHnZ9IEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729331580085_313326_4893">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNir59tEe-UrZV4fABbBg" andromda_REST_path="search" andromda_REST_request_type="GET" base_Operation="_19_0_3_90e0298_1729331580085_313326_4893">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Search Farms&quot;, description = &quot;Search farms based on the criteria&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceOperation xmi:id="_oHiHnp9IEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729331580084_468808_4890">
+  <andromdawebservice:WebServiceOperation xmi:id="_BMNisJ9tEe-UrZV4fABbBg" andromda_REST_path="/" andromda_REST_request_type="POST" base_Operation="_19_0_3_90e0298_1729331580084_468808_4890">
     <andromda_additionalAnnotations>io.swagger.v3.oas.annotations.Operation(summary = &quot;Save Farm&quot;, description = &quot;Save a farm to data store&quot;)</andromda_additionalAnnotations>
   </andromdawebservice:WebServiceOperation>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHn59IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_4_90e0298_1730702373981_333832_7765"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHoJ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_4_90e0298_1730702373981_225841_7761"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHoZ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729334278701_912417_7420"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHop9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729334278703_736694_7431"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHo59IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729334278705_435309_7441"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHpJ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_4_90e0298_1730702373980_342374_7755"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHpZ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729334278704_753718_7437"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHpp9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_4_90e0298_1730702373980_132092_7745"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHp59IEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_4_90e0298_1730702373981_125889_7758"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHqJ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729334278703_149172_7433"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiHqZ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729333809117_332744_7035"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuoJ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729333809116_209040_7031"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuoZ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729333809115_686232_7028"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuop9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729333809115_633801_7025"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuo59IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729333809112_797259_7015"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiupJ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729332661327_82959_6090"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiupZ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729332661327_562197_6094"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiupp9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729332661329_753399_6108"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiup59IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729332661328_304104_6098"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuqJ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729333096114_705788_6473"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuqZ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729333096113_720087_6469"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuqp9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729332417534_221203_5650"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuq59IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729332661326_175660_6088"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiurJ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729333096112_492834_6463"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiurZ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729331580114_446396_4982"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiurp9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729332417536_403471_5663"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiur59IEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729333096113_483346_6466"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiusJ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729333096112_772664_6453"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiusZ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729332417537_67969_5670"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiusp9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729332417537_792884_5666"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHius59IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729332417536_755243_5660"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiutJ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729331580117_73678_5000"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiutZ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729331580116_42189_4997"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiutp9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729331580115_77028_4992"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiut59IEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729331580111_885623_4965"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuuJ9IEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729331580114_984622_4985"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuuZ9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729331580115_479533_4988"/>
-  <andromdawebservice:WebServiceParam xmi:id="_oHiuup9IEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729331580116_150639_4996"/>
-  <andromdacommon:Enumeration xmi:id="_oHiuu59IEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1730702469533_288322_8000"/>
-  <andromdacommon:Enumeration xmi:id="_oHiuvJ9IEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1729864074211_375308_7699"/>
-  <andromdacommon:Enumeration xmi:id="_oHiuvZ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729544210255_146474_7332"/>
-  <andromdacommon:Enumeration xmi:id="_oHiuvp9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331638681_121959_5466"/>
-  <andromdacommon:Enumeration xmi:id="_oHjVsJ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332028533_151859_5479"/>
-  <andromdacommon:Enumeration xmi:id="_oHjVsZ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332088532_940659_5507"/>
-  <andromdacommon:Enumeration xmi:id="_oHjVsp9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333725720_497926_6904"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVs59IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729334278626_376329_7298"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVtJ9IEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1730702373913_593045_7656"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVtZ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332661305_994079_6049"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVtp9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333809059_38635_6936"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVt59IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331580120_609457_5015"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVuJ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331638679_365876_5465"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVuZ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332417011_648048_5584"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVup9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333095603_236848_6387"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVu59IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331580119_239456_5013"/>
-  <andromdacommon:ValueObject xmi:id="_oHjVvJ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331579351_910692_4817"/>
-  <andromdapresentation:FrontEndApplication xmi:id="_oHjVvZ9IEe-UrZV4fABbBg" base_UseCase="_19_0_3_90e0298_1729340328297_850703_8015"/>
-  <andromdapresentation:FrontEndUseCase xmi:id="_oHjVvp9IEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_4_90e0298_1729943336879_783409_7480" andromda_presentation_path="relationship" andromda_presentation_substitution_name="Relationship"/>
-  <andromdapresentation:FrontEndUseCase xmi:id="_oHjVv59IEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729424371293_275828_11733" andromda_presentation_path="policy/type/benefit" andromda_presentation_substitution_name="PolicyTypeBenefit"/>
-  <andromdapresentation:FrontEndUseCase xmi:id="_oHjVwJ9IEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729424278810_658383_6668" andromda_presentation_path="policy/type" andromda_presentation_substitution_name="PolicyType"/>
-  <andromdapresentation:FrontEndUseCase xmi:id="_oHjVwZ9IEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729424277831_887686_6622" andromda_presentation_path="policy/beneficiary" andromda_presentation_substitution_name="Beneficiary"/>
-  <andromdapresentation:FrontEndUseCase xmi:id="_oHjVwp9IEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729424276524_935569_6541" andromda_presentation_path="policy" andromda_presentation_substitution_name="Policy"/>
-  <andromdapresentation:FrontEndUseCase xmi:id="_oHjVw59IEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729340328297_850703_8015" andromda_presentation_path="customer" andromda_presentation_substitution_name="Customer"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHjVxJ9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424371333_399763_11909"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHjVxZ9IEe-UrZV4fABbBg" base_State="_19_0_4_90e0298_1729943336931_456243_7669"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHjVxp9IEe-UrZV4fABbBg" base_State="_19_0_4_90e0298_1729943336931_51457_7666"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHjVx59IEe-UrZV4fABbBg" base_State="_19_0_4_90e0298_1729943336931_820563_7662"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHjVyJ9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424371333_32235_11906"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHjVyZ9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424371333_854461_11902"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHjVyp9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281218_779065_7370"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8wJ9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281218_437129_7367"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8wZ9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281217_10404_7363"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8wp9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281203_595984_7263"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8w59IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281203_501973_7260"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8xJ9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281202_573039_7256"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8xZ9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729340329405_642120_8253"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8xp9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424280271_258201_6889"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8x59IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424280270_288399_6886"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8yJ9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424280270_148079_6882"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8yZ9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729340329405_700113_8249"/>
-  <andromdapresentation:FrontEndView xmi:id="_oHj8yp9IEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729340329405_550743_8256"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHj8y59IEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_611798_7659" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHj8zJ9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="relationships" base_Transition="_19_0_4_90e0298_1729943336930_227770_7656" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHj8zZ9IEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_626172_7655" andromda_presentation_icon="add"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHj8zp9IEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_442246_7658" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHj8z59IEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_400930_7653" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHj80J9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="relationships" base_Transition="_19_0_4_90e0298_1729943336930_304019_7648" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHj80Z9IEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_729551_7651" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHj80p9IEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_525399_7649" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj0J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_111061_11889" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj0Z9IEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_917303_7647" andromda_presentation_icon="save"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj0p9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_198715_11891" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj059IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_123087_11893" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj1J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_721904_11895" andromda_presentation_icon="add"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj1Z9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281217_677279_7360" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj1p9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_450558_11899" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj159IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_491652_11898" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj2J9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="benefits" base_Transition="_19_0_3_90e0298_1729424371331_358250_11896" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj2Z9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="benefits" base_Transition="_19_0_3_90e0298_1729424371331_410976_11888" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj2p9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_880987_11887" andromda_presentation_icon="save"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj259IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281216_814736_7354" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj3J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281216_466419_7359" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj3Z9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="policyTypes" base_Transition="_19_0_3_90e0298_1729424281216_264184_7357" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj3p9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="policyTypes" base_Transition="_19_0_3_90e0298_1729424281215_230671_7349" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj359IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281216_873976_7356" andromda_presentation_icon="add"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj4J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281216_603911_7352" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj4Z9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281215_879267_7350" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj4p9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281215_825986_7348" andromda_presentation_icon="save"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj459IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281199_869533_7253" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj5J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_576457_7249" andromda_presentation_icon="add"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj5Z9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281199_864281_7252" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj5p9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="beneficiaries" base_Transition="_19_0_3_90e0298_1729424281198_331450_7250" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj559IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_876424_7247" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj6J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_390977_7245" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj6Z9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="beneficiaries" base_Transition="_19_0_3_90e0298_1729424281198_503566_7242" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHkj6p9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_164649_7243" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK4J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_958629_7241" andromda_presentation_icon="save"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK4Z9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280268_167914_6875" andromda_presentation_icon="add"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK4p9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280268_96490_6879" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK459IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="policies" base_Transition="_19_0_3_90e0298_1729424280268_32689_6876" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK5J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280268_550628_6873" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK5Z9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280268_53175_6878" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK5p9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280267_518247_6871" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK559IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280267_4352_6869" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK6J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280267_866605_6867" andromda_presentation_icon="save"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK6Z9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="policies" base_Transition="_19_0_3_90e0298_1729424280267_567675_6868" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK6p9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329404_781282_8246" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK659IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329403_234845_8240" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK7J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329404_36792_8245" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK7Z9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329403_913330_8238" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK7p9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="customers" base_Transition="_19_0_3_90e0298_1729340329404_857752_8243" andromda_presentation_icon="remove_red_eye"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK759IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329404_528292_8242" andromda_presentation_icon="add"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK8J9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329403_672464_8236" andromda_presentation_icon="search"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK8Z9IEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="customers" base_Transition="_19_0_3_90e0298_1729340329403_644226_8235" andromda_presentation_icon="edit"/>
-  <andromdapresentation:FrontEndAction xmi:id="_oHlK8p9IEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329403_788541_8234" andromda_presentation_icon="save"/>
-  <andromdapresentation:FrontEndController xmi:id="_oHlK859IEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1729943336927_832157_7577"/>
-  <andromdapresentation:FrontEndController xmi:id="_oHlK9J9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424371325_85739_11824"/>
-  <andromdapresentation:FrontEndController xmi:id="_oHlK9Z9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424281175_569028_7067"/>
-  <andromdapresentation:FrontEndController xmi:id="_oHlK9p9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424280739_670598_6982"/>
-  <andromdapresentation:FrontEndController xmi:id="_oHlK959IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424280245_437603_6739"/>
-  <andromdapresentation:FrontEndController xmi:id="_oHlK-J9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729340329395_236407_8125"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx8J9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371315_986861_11794"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx8Z9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336919_259794_7543"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx8p9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729943336919_396272_7540"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx859IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336918_506537_7529"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx9J9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336919_342267_7542"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx9Z9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336919_556735_7544"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx9p9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371315_273236_11793"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx959IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336918_74402_7531"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx-J9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336919_701949_7541"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx-Z9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336918_76813_7530"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx-p9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336917_163641_7528"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx-59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336918_103913_7532"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx_J9IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729943731034_474822_9304"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx_Z9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_4_90e0298_1729943336956_387238_7908"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx_p9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_4_90e0298_1729943336950_304494_7874"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlx_59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_474701_11780"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlyAJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_921866_11783"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlyAZ9IEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729424371352_189729_12081" andromda_presentation_component="app-crop"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHlyAp9IEe-UrZV4fABbBg" base_Parameter="_19_0_4_90e0298_1729943336939_701269_7841" andromda_presentation_component="app-crop"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZAJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371315_353884_11791"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZAZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371315_522709_11792"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZAp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_466955_11784"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZA59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_648551_11782"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZBJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729424371315_125450_11790"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZBZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729860703577_34032_7360"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZBp9IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729860703576_478736_7358"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZB59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_48660_11781"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZCJ9IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729860703577_596298_7359"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZCZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280260_469007_6836"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZCp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_4_90e0298_1729860705694_540514_7372"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZC59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729424280262_420266_6845"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZDJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860146845_87098_7300"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZDZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860146846_273666_7301"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZDp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860146846_447581_7302"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZD59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729424371365_359409_12128"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZEJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729424371358_553258_12104"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZEZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860151208_20133_7325"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZEp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860151208_540315_7324"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZE59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860146847_483344_7303"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHmZFJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860151208_888745_7327"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAEJ9IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729862717646_707471_7519"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAEZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860151208_926480_7326"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAEp9IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729862717647_848939_7520"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAE59IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729862717648_588289_7521"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAFJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="table" base_Property="_19_0_4_90e0298_1729862717648_242835_7522"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAFZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280256_398618_6824"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAFp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280256_588984_6823"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAF59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729424295648_621232_8708"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAGJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_730510_6812"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAGZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729424295991_973685_8732"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAGp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280257_660841_6826"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAG59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280257_206669_6825"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAHJ9IEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729424295303_246091_8685" andromda_presentation_component="app-crop"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAHZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_36414_6814"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAHp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729424280256_434980_6822"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAH59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_918920_6816"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAIJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_156580_6815"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAIZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="table" andromda_presentation_view_field_table_identifier_columns="" base_Property="_19_0_4_90e0298_1729865009540_871620_7830"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAIp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_580579_6813"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnAI59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_4_90e0298_1729939895735_851633_7413"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnIJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328970_812257_8084"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnIZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729424289393_6473_8276"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnIp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729424289006_380824_8252"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnI59IEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729424288645_949139_8229" andromda_presentation_component="app-crop"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnJJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354600_170999_7369"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnJZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328968_136405_8068"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnJp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_4_90e0298_1729939895735_681623_7412"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnJ59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474204_277814_7502"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnKJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860133513_231560_7275"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnKZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860133512_602955_7272"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnKp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860133513_43043_7273"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnK59IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729865445038_49166_7916"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnLJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544355648_367056_7409"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnLZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474203_545122_7501"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnLp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_3_90e0298_1729544362880_933047_7456"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnL59IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474203_150075_7499"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnMJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_3_90e0298_1729544362881_296472_7457"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnMZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860133513_955620_7274"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnMp9IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474203_558782_7500"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHnnM59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354601_609690_7373"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOMJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354601_72194_7372"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOMZ9IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474201_329961_7498"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOMp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354601_15261_7371"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOM59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328967_715979_8064"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoONJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328967_147410_8067"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoONZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354600_427184_7370"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoONp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729424281622_578816_7501"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoON59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729424281961_435962_7525"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOOJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328970_590390_8086"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOOZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328970_669064_8085"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOOp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729340328969_728404_8082"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOO59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328969_659350_8083"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOPJ9IEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729424281233_708948_7478" andromda_presentation_component="app-crop"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOPZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328967_87344_8066"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOPp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328967_634345_8065"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOP59IEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729340329434_247700_8485" andromda_presentation_component="app-crop"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOQJ9IEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729340587433_76316_10000"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOQZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729340329721_340378_8508"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOQp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729340330012_597039_8532"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHoOQ59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580139_783356_5108"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHo1QJ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580140_716651_5109"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHo1QZ9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580140_515666_5111"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHo1Qp9IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580139_168354_5107"/>
-  <andromdapresentation:FrontEndField xmi:id="_oHo1Q59IEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580140_482309_5110"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1RJ9IEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729424371377_992589_12177"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1RZ9IEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="firstName,surname,identityNo,beneficiaryType" base_Parameter="_19_0_4_90e0298_1729943336973_216830_7978"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1Rp9IEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_4_90e0298_1729943336973_378602_7977"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1R59IEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="benefit,policyType" base_Parameter="_19_0_3_90e0298_1729424371377_457544_12178"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1SJ9IEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="type,hasCoIncured,hasBeneficiaries" base_Parameter="_19_0_3_90e0298_1729424296640_93653_8782"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1SZ9IEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729424296639_705859_8781"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1Sp9IEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="firstName,surname,identityNo,beneficiaryType" base_Parameter="_19_0_3_90e0298_1729424290125_177800_8326"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1S59IEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729424290125_939363_8325"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1TJ9IEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729424282803_974011_7574"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1TZ9IEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="policyNumber,customerName,identityNo, premium,status" base_Parameter="_19_0_3_90e0298_1729424282803_675732_7575"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1Tp9IEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729340330615_971768_8581"/>
-  <andromdapresentation:FrontEndTable xmi:id="_oHo1T59IEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="firstName,middleName,surname,identityNo" base_Parameter="_19_0_3_90e0298_1729340330615_231814_8582"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHo1UJ9IEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1729943336880_438808_7482"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHo1UZ9IEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1729943336879_304395_7481"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHo1Up9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424371295_138645_11735"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHo1U59IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424371294_519106_11734"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHpcUJ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424278811_730857_6669"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHpcUZ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424278811_653549_6670"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHpcUp9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424277832_394008_6624"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHpcU59IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424277832_928952_6623"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHpcVJ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424276527_737710_6545"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHpcVZ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424276526_415941_6543"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHpcVp9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424276525_592288_6542"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHpcV59IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729340328298_202698_8017"/>
-  <andromdapresentation:FrontEndComponent xmi:id="_oHpcWJ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729340328297_409353_8016"/>
-  <andromdapersistence:Entity xmi:id="_oHpcWZ9IEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729332661303_200013_6046"/>
-  <andromdapersistence:Entity xmi:id="_oHpcWp9IEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_4_90e0298_1730702373912_120116_7655"/>
-  <andromdapersistence:Entity xmi:id="_oHpcW59IEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729334278625_316844_7297"/>
-  <andromdapersistence:Entity xmi:id="_oHpcXJ9IEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729333809057_273992_6935"/>
-  <andromdapersistence:Entity xmi:id="_oHpcXZ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331580118_984778_5008" andromda_persistence_mapped_superclass="true"/>
-  <andromdapersistence:Entity xmi:id="_oHpcXp9IEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729333095602_170414_6386"/>
-  <andromdapersistence:Entity xmi:id="_oHpcX59IEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729331579348_369647_4816"/>
-  <andromdapersistence:Entity xmi:id="_oHpcYJ9IEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729332417010_894231_5583"/>
-  <andromdapersistence:Identifier xmi:id="_oHpcYZ9IEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729334278662_211527_7329"/>
-  <andromdapersistence:Identifier xmi:id="_oHpcYp9IEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_4_90e0298_1730702373973_310938_7695"/>
-  <andromdapersistence:Identifier xmi:id="_oHpcY59IEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729333809092_350231_6965"/>
-  <andromdapersistence:Identifier xmi:id="_oHqDYJ9IEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729332661315_110974_6053"/>
-  <andromdapersistence:Identifier xmi:id="_oHqDYZ9IEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729333096104_466374_6415"/>
-  <andromdapersistence:Identifier xmi:id="_oHqDYp9IEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729331580075_668169_4860"/>
-  <andromdapersistence:Identifier xmi:id="_oHqDY59IEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729332417525_774570_5612"/>
-  <andromdapersistence:MappedSuperclass xmi:id="_oHqDZJ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331580118_984778_5008"/>
-  <andromdapersistence:PersistentProperty xmi:id="_oHqDZZ9IEe-UrZV4fABbBg" base_Property="_19_0_3_90e0298_1729332950329_911978_6377"/>
-  <andromdapersistence:PersistentAttribute xmi:id="_oHqDZp9IEe-UrZV4fABbBg" base_Property="_19_0_3_90e0298_1729332950329_911978_6377"/>
-  <andromdapersistence:PersistentElement xmi:id="_oHqDZ59IEe-UrZV4fABbBg" base_Property="_19_0_3_90e0298_1729332950329_911978_6377"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDaJ9IEe-UrZV4fABbBg" base_Package="_19_0_4_90e0298_1696508826829_987502_4878"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDaZ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647342708464_347206_4934"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDap9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647343862964_412097_4997"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDa59IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647343884802_483206_4999"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDbJ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647343872989_216857_4998"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDbZ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647340378372_698346_4812"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDbp9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647342635470_730239_4872"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDb59IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647342603365_579290_4813"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDcJ9IEe-UrZV4fABbBg" base_Package="_19_0_4_90e0298_1696508820885_577642_4877"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDcZ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644661611035_757178_4823"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDcp9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647343893116_32445_5000"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDc59IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644661610360_816173_4797"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDdJ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1645257711066_59882_4820"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDdZ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1645257717692_171251_4821"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDdp9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1645258148090_775189_4881"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDd59IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574668_419999_4797"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDeJ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574671_549823_4801"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDeZ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1645257666912_384001_4819"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDep9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574668_36958_4798"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDe59IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574667_439922_4795"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDfJ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574668_90906_4796"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDfZ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729334278623_482205_7296"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDfp9IEe-UrZV4fABbBg" base_Package="_19_0_4_90e0298_1730702373911_475071_7654"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDf59IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729333809056_792133_6934"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDgJ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729332417008_302238_5582"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDgZ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729333095602_747714_6385"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDgp9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729332254491_65926_5580"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDg59IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729331449530_3298_4813"/>
-  <andromdaxml:XmlSchema xmi:id="_oHqDhJ9IEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729331579341_533206_4815"/>
-  <andromdaservice:Service xmi:id="_oHrRgJ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729334278627_897235_7299"/>
-  <andromdaservice:Service xmi:id="_oHrRgZ9IEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1730702373913_223049_7657"/>
-  <andromdaservice:Service xmi:id="_oHrRgp9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333809060_384373_6937"/>
-  <andromdaservice:Service xmi:id="_oHrRg59IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332661304_485718_6048"/>
-  <andromdaservice:Service xmi:id="_oHrRhJ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333095603_439812_6388"/>
-  <andromdaservice:Service xmi:id="_oHrRhZ9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332417011_334004_5585"/>
-  <andromdaservice:Service xmi:id="_oHrRhp9IEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331579351_779312_4818"/>
-  <andromdaservice:ServiceOperation xmi:id="_oHr4kJ9IEe-UrZV4fABbBg" base_Operation="_19_0_3_90e0298_1729331580082_276695_4883"/>
-  <andromdaservice:ServiceOperation xmi:id="_oHr4kZ9IEe-UrZV4fABbBg" base_Operation="_19_0_3_90e0298_1729331580081_951639_4879"/>
-  <standard:ModelLibrary xmi:id="_oH3ewJ9IEe-UrZV4fABbBg" base_Package="_9_0_1fe00f9_1119336925546_238419_77"/>
-  <standard:ModelLibrary xmi:id="_oH4F0Z9IEe-UrZV4fABbBg" base_Package="eee_1045467100313_135436_1"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNisZ9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_4_90e0298_1730702373981_333832_7765"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNisp9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_4_90e0298_1730702373981_225841_7761"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNis59tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729334278701_912417_7420"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNitJ9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729334278703_736694_7431"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNitZ9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729334278705_435309_7441"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNitp9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_4_90e0298_1730702373980_342374_7755"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNit59tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729334278704_753718_7437"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiuJ9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_4_90e0298_1730702373980_132092_7745"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiuZ9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_4_90e0298_1730702373981_125889_7758"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiup9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729334278703_149172_7433"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiu59tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729333809117_332744_7035"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNivJ9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729333809116_209040_7031"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNivZ9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729333809115_686232_7028"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNivp9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729333809115_633801_7025"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiv59tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729333809112_797259_7015"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiwJ9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729332661327_82959_6090"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiwZ9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729332661327_562197_6094"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiwp9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729332661329_753399_6108"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiw59tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729332661328_304104_6098"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNixJ9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729333096114_705788_6473"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNixZ9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729333096113_720087_6469"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNixp9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729332417534_221203_5650"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNix59tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729332661326_175660_6088"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiyJ9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729333096112_492834_6463"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiyZ9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729331580114_446396_4982"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiyp9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729332417536_403471_5663"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiy59tEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729333096113_483346_6466"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNizJ9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729333096112_772664_6453"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNizZ9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729332417537_67969_5670"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNizp9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729332417537_792884_5666"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNiz59tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729332417536_755243_5660"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNi0J9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729331580117_73678_5000"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNi0Z9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729331580116_42189_4997"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNi0p9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729331580115_77028_4992"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNi059tEe-UrZV4fABbBg" andromda_REST_param_type="RequestParam" base_Parameter="_19_0_3_90e0298_1729331580111_885623_4965"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNi1J9tEe-UrZV4fABbBg" andromda_REST_param_type="RequestBody" base_Parameter="_19_0_3_90e0298_1729331580114_984622_4985"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNi1Z9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729331580115_479533_4988"/>
+  <andromdawebservice:WebServiceParam xmi:id="_BMNi1p9tEe-UrZV4fABbBg" andromda_REST_param_type="PathParam" base_Parameter="_19_0_3_90e0298_1729331580116_150639_4996"/>
+  <andromdacommon:Enumeration xmi:id="_BMNi159tEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1730702469533_288322_8000"/>
+  <andromdacommon:Enumeration xmi:id="_BMNi2J9tEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1729864074211_375308_7699"/>
+  <andromdacommon:Enumeration xmi:id="_BMNi2Z9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729544210255_146474_7332"/>
+  <andromdacommon:Enumeration xmi:id="_BMNi2p9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331638681_121959_5466"/>
+  <andromdacommon:Enumeration xmi:id="_BMNi259tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332028533_151859_5479"/>
+  <andromdacommon:Enumeration xmi:id="_BMNi3J9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332088532_940659_5507"/>
+  <andromdacommon:Enumeration xmi:id="_BMNi3Z9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333725720_497926_6904"/>
+  <andromdacommon:ValueObject xmi:id="_BMNi3p9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729334278626_376329_7298"/>
+  <andromdacommon:ValueObject xmi:id="_BMNi359tEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1730702373913_593045_7656"/>
+  <andromdacommon:ValueObject xmi:id="_BMNi4J9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332661305_994079_6049"/>
+  <andromdacommon:ValueObject xmi:id="_BMNi4Z9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333809059_38635_6936"/>
+  <andromdacommon:ValueObject xmi:id="_BMNi4p9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331580120_609457_5015"/>
+  <andromdacommon:ValueObject xmi:id="_BMNi459tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331638679_365876_5465"/>
+  <andromdacommon:ValueObject xmi:id="_BMNi5J9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332417011_648048_5584"/>
+  <andromdacommon:ValueObject xmi:id="_BMNi5Z9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333095603_236848_6387"/>
+  <andromdacommon:ValueObject xmi:id="_BMOJsJ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331580119_239456_5013"/>
+  <andromdacommon:ValueObject xmi:id="_BMOJsZ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331579351_910692_4817"/>
+  <andromdapresentation:FrontEndApplication xmi:id="_BMOJsp9tEe-UrZV4fABbBg" base_UseCase="_19_0_3_90e0298_1729340328297_850703_8015"/>
+  <andromdapresentation:FrontEndUseCase xmi:id="_BMOJs59tEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_4_90e0298_1729943336879_783409_7480" andromda_presentation_path="relationship" andromda_presentation_substitution_name="Relationship"/>
+  <andromdapresentation:FrontEndUseCase xmi:id="_BMOJtJ9tEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729424371293_275828_11733" andromda_presentation_path="policy/type/benefit" andromda_presentation_substitution_name="PolicyTypeBenefit"/>
+  <andromdapresentation:FrontEndUseCase xmi:id="_BMOJtZ9tEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729424278810_658383_6668" andromda_presentation_path="policy/type" andromda_presentation_substitution_name="PolicyType"/>
+  <andromdapresentation:FrontEndUseCase xmi:id="_BMOJtp9tEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729424277831_887686_6622" andromda_presentation_path="policy/beneficiary" andromda_presentation_substitution_name="Beneficiary"/>
+  <andromdapresentation:FrontEndUseCase xmi:id="_BMOJt59tEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729424276524_935569_6541" andromda_presentation_path="policy" andromda_presentation_substitution_name="Policy"/>
+  <andromdapresentation:FrontEndUseCase xmi:id="_BMOJuJ9tEe-UrZV4fABbBg" andromda_presentation_web_action_form_key="" base_UseCase="_19_0_3_90e0298_1729340328297_850703_8015" andromda_presentation_path="customer" andromda_presentation_substitution_name="Customer"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJuZ9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424371333_399763_11909"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJup9tEe-UrZV4fABbBg" base_State="_19_0_4_90e0298_1729943336931_456243_7669"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJu59tEe-UrZV4fABbBg" base_State="_19_0_4_90e0298_1729943336931_51457_7666"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJvJ9tEe-UrZV4fABbBg" base_State="_19_0_4_90e0298_1729943336931_820563_7662"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJvZ9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424371333_32235_11906"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJvp9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424371333_854461_11902"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJv59tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281218_779065_7370"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJwJ9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281218_437129_7367"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJwZ9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281217_10404_7363"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJwp9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281203_595984_7263"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJw59tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281203_501973_7260"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJxJ9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424281202_573039_7256"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJxZ9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729340329405_642120_8253"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJxp9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424280271_258201_6889"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJx59tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424280270_288399_6886"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJyJ9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729424280270_148079_6882"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJyZ9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729340329405_700113_8249"/>
+  <andromdapresentation:FrontEndView xmi:id="_BMOJyp9tEe-UrZV4fABbBg" base_State="_19_0_3_90e0298_1729340329405_550743_8256"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJy59tEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_611798_7659" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJzJ9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="relationships" base_Transition="_19_0_4_90e0298_1729943336930_227770_7656" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJzZ9tEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_626172_7655" andromda_presentation_icon="add"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJzp9tEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_442246_7658" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJz59tEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_400930_7653" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ0J9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="relationships" base_Transition="_19_0_4_90e0298_1729943336930_304019_7648" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ0Z9tEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_729551_7651" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ0p9tEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_525399_7649" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ059tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_111061_11889" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ1J9tEe-UrZV4fABbBg" base_Transition="_19_0_4_90e0298_1729943336930_917303_7647" andromda_presentation_icon="save"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ1Z9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_198715_11891" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ1p9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_123087_11893" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ159tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_721904_11895" andromda_presentation_icon="add"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ2J9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281217_677279_7360" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ2Z9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_450558_11899" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ2p9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_491652_11898" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ259tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="benefits" base_Transition="_19_0_3_90e0298_1729424371331_358250_11896" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ3J9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="benefits" base_Transition="_19_0_3_90e0298_1729424371331_410976_11888" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ3Z9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424371331_880987_11887" andromda_presentation_icon="save"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ3p9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281216_814736_7354" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ359tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281216_466419_7359" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ4J9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="policyTypes" base_Transition="_19_0_3_90e0298_1729424281216_264184_7357" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ4Z9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="policyTypes" base_Transition="_19_0_3_90e0298_1729424281215_230671_7349" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ4p9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281216_873976_7356" andromda_presentation_icon="add"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ459tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281216_603911_7352" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ5J9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281215_879267_7350" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ5Z9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281215_825986_7348" andromda_presentation_icon="save"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ5p9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281199_869533_7253" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ559tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_576457_7249" andromda_presentation_icon="add"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ6J9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281199_864281_7252" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ6Z9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="beneficiaries" base_Transition="_19_0_3_90e0298_1729424281198_331450_7250" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ6p9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_876424_7247" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ659tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_390977_7245" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ7J9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="beneficiaries" base_Transition="_19_0_3_90e0298_1729424281198_503566_7242" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOJ7Z9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_164649_7243" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwwJ9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424281198_958629_7241" andromda_presentation_icon="save"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwwZ9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280268_167914_6875" andromda_presentation_icon="add"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwwp9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280268_96490_6879" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOww59tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="policies" base_Transition="_19_0_3_90e0298_1729424280268_32689_6876" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwxJ9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280268_550628_6873" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwxZ9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280268_53175_6878" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwxp9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280267_518247_6871" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwx59tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280267_4352_6869" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwyJ9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729424280267_866605_6867" andromda_presentation_icon="save"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwyZ9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="policies" base_Transition="_19_0_3_90e0298_1729424280267_567675_6868" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwyp9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329404_781282_8246" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwy59tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329403_234845_8240" andromda_presentation_icon="delete" andromda_presentation_if="deleteUnrestricted()"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwzJ9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329404_36792_8245" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwzZ9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329403_913330_8238" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwzp9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="customers" base_Transition="_19_0_3_90e0298_1729340329404_857752_8243" andromda_presentation_icon="remove_red_eye"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOwz59tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329404_528292_8242" andromda_presentation_icon="add"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOw0J9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329403_672464_8236" andromda_presentation_icon="search"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOw0Z9tEe-UrZV4fABbBg" andromda_presentation_web_action_tablelink="customers" base_Transition="_19_0_3_90e0298_1729340329403_644226_8235" andromda_presentation_icon="edit"/>
+  <andromdapresentation:FrontEndAction xmi:id="_BMOw0p9tEe-UrZV4fABbBg" base_Transition="_19_0_3_90e0298_1729340329403_788541_8234" andromda_presentation_icon="save"/>
+  <andromdapresentation:FrontEndController xmi:id="_BMOw059tEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1729943336927_832157_7577"/>
+  <andromdapresentation:FrontEndController xmi:id="_BMOw1J9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424371325_85739_11824"/>
+  <andromdapresentation:FrontEndController xmi:id="_BMOw1Z9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424281175_569028_7067"/>
+  <andromdapresentation:FrontEndController xmi:id="_BMOw1p9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424280739_670598_6982"/>
+  <andromdapresentation:FrontEndController xmi:id="_BMOw159tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424280245_437603_6739"/>
+  <andromdapresentation:FrontEndController xmi:id="_BMOw2J9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729340329395_236407_8125"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw2Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="table" andromda_presentation_view_field_table_identifier_columns="fileType,filename" base_Property="_19_0_4_90e0298_1731232418043_363898_7737"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw2p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="button" base_Property="_19_0_4_90e0298_1731232430726_25349_7740"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw259tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371315_986861_11794"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw3J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336919_259794_7543"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw3Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729943336919_396272_7540"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw3p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336918_506537_7529"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw359tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336919_342267_7542"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw4J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336919_556735_7544"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw4Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371315_273236_11793"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw4p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336918_74402_7531"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw459tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336919_701949_7541"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw5J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336918_76813_7530"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw5Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336917_163641_7528"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw5p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729943336918_103913_7532"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw559tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729943731034_474822_9304"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw6J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_4_90e0298_1729943336956_387238_7908"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw6Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_4_90e0298_1729943336950_304494_7874"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw6p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_474701_11780"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw659tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_921866_11783"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw7J9tEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729424371352_189729_12081" andromda_presentation_component="app-crop"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw7Z9tEe-UrZV4fABbBg" base_Parameter="_19_0_4_90e0298_1729943336939_701269_7841" andromda_presentation_component="app-crop"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw7p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371315_353884_11791"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw759tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371315_522709_11792"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw8J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_466955_11784"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw8Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_648551_11782"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw8p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729424371315_125450_11790"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw859tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729860703577_34032_7360"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw9J9tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729860703576_478736_7358"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw9Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424371314_48660_11781"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMOw9p9tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729860703577_596298_7359"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX0J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280260_469007_6836"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX0Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_4_90e0298_1729860705694_540514_7372"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX0p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729424280262_420266_6845"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX059tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860146845_87098_7300"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX1J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860146846_273666_7301"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX1Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860146846_447581_7302"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX1p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729424371365_359409_12128"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX159tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729424371358_553258_12104"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX2J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860151208_20133_7325"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX2Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860151208_540315_7324"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX2p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860146847_483344_7303"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX259tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860151208_888745_7327"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX3J9tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729862717646_707471_7519"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX3Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860151208_926480_7326"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX3p9tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729862717647_848939_7520"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX359tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729862717648_588289_7521"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX4J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="table" base_Property="_19_0_4_90e0298_1729862717648_242835_7522"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX4Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280256_398618_6824"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX4p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280256_588984_6823"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX459tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729424295648_621232_8708"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX5J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_730510_6812"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX5Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729424295991_973685_8732"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX5p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280257_660841_6826"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX559tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280257_206669_6825"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX6J9tEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729424295303_246091_8685" andromda_presentation_component="app-crop"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX6Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_36414_6814"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX6p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729424280256_434980_6822"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX659tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_918920_6816"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX7J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_156580_6815"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX7Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="table" andromda_presentation_view_field_table_identifier_columns="" base_Property="_19_0_4_90e0298_1729865009540_871620_7830"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX7p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729424280255_580579_6813"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX759tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_4_90e0298_1729939895735_851633_7413"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX8J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328970_812257_8084"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX8Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729424289393_6473_8276"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX8p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729424289006_380824_8252"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX859tEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729424288645_949139_8229" andromda_presentation_component="app-crop"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX9J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354600_170999_7369"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX9Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328968_136405_8068"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX9p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_4_90e0298_1729939895735_681623_7412"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX959tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474204_277814_7502"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX-J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860133513_231560_7275"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX-Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860133512_602955_7272"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX-p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860133513_43043_7273"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX-59tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_4_90e0298_1729865445038_49166_7916"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX_J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544355648_367056_7409"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX_Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474203_545122_7501"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX_p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_3_90e0298_1729544362880_933047_7456"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPX_59tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474203_150075_7499"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPYAJ9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="select" base_Property="_19_0_3_90e0298_1729544362881_296472_7457"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPYAZ9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_4_90e0298_1729860133513_955620_7274"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPYAp9tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474203_558782_7500"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPYA59tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354601_609690_7373"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPYBJ9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354601_72194_7372"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMPYBZ9tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729544474201_329961_7498"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-4J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354601_15261_7371"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-4Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328967_715979_8064"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-4p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328967_147410_8067"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-459tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729544354600_427184_7370"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-5J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729424281622_578816_7501"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-5Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729424281961_435962_7525"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-5p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328970_590390_8086"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-559tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328970_669064_8085"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-6J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729340328969_728404_8082"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-6Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328969_659350_8083"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-6p9tEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729424281233_708948_7478" andromda_presentation_component="app-crop"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-659tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328967_87344_8066"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-7J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729340328967_634345_8065"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-7Z9tEe-UrZV4fABbBg" base_Parameter="_19_0_3_90e0298_1729340329434_247700_8485" andromda_presentation_component="app-crop"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-7p9tEe-UrZV4fABbBg" andromda_presentation_view_field_readonly="true" base_Property="_19_0_3_90e0298_1729340587433_76316_10000"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-759tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Parameter="_19_0_3_90e0298_1729340329721_340378_8508"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-8J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="link" base_Parameter="_19_0_3_90e0298_1729340330012_597039_8532"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-8Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580139_783356_5108"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-8p9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580140_716651_5109"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-859tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580140_515666_5111"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-9J9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580139_168354_5107"/>
+  <andromdapresentation:FrontEndField xmi:id="_BMP-9Z9tEe-UrZV4fABbBg" andromda_presentation_web_view_field_type="hidden" base_Property="_19_0_3_90e0298_1729331580140_482309_5110"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP-9p9tEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729424371377_992589_12177"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP-959tEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="id,relation" base_Parameter="_19_0_4_90e0298_1729943336973_216830_7978"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP--J9tEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_4_90e0298_1729943336973_378602_7977"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP--Z9tEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="benefit,policyType" base_Parameter="_19_0_3_90e0298_1729424371377_457544_12178"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP--p9tEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="type,hasCoInsured,hasBeneficiaries" base_Parameter="_19_0_3_90e0298_1729424296640_93653_8782"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP--59tEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729424296639_705859_8781"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP-_J9tEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="firstName,surname,identityNo,beneficiaryType" base_Parameter="_19_0_3_90e0298_1729424290125_177800_8326"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP-_Z9tEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729424290125_939363_8325"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP-_p9tEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729424282803_974011_7574"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP-_59tEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="policyNumber,customerName,identityNo, premium,status" base_Parameter="_19_0_3_90e0298_1729424282803_675732_7575"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP_AJ9tEe-UrZV4fABbBg" andromda_presentation_view_table="true" base_Parameter="_19_0_3_90e0298_1729340330615_971768_8581"/>
+  <andromdapresentation:FrontEndTable xmi:id="_BMP_AZ9tEe-UrZV4fABbBg" andromda_presentation_view_table="true" andromda_presentation_view_table_columns="firstName,middleName,surname,identityNo" base_Parameter="_19_0_3_90e0298_1729340330615_231814_8582"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_Ap9tEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1729943336880_438808_7482"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_A59tEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1729943336879_304395_7481"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_BJ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424371295_138645_11735"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_BZ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424371294_519106_11734"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_Bp9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424278811_730857_6669"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_B59tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424278811_653549_6670"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_CJ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424277832_394008_6624"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_CZ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424277832_928952_6623"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_Cp9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424276527_737710_6545"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_C59tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424276526_415941_6543"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_DJ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729424276525_592288_6542"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_DZ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729340328298_202698_8017"/>
+  <andromdapresentation:FrontEndComponent xmi:id="_BMP_Dp9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729340328297_409353_8016"/>
+  <andromdapersistence:Entity xmi:id="_BMP_D59tEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729332661303_200013_6046"/>
+  <andromdapersistence:Entity xmi:id="_BMP_EJ9tEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_4_90e0298_1730702373912_120116_7655"/>
+  <andromdapersistence:Entity xmi:id="_BMP_EZ9tEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729334278625_316844_7297"/>
+  <andromdapersistence:Entity xmi:id="_BMP_Ep9tEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729333809057_273992_6935"/>
+  <andromdapersistence:Entity xmi:id="_BMQl8J9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331580118_984778_5008" andromda_persistence_mapped_superclass="true"/>
+  <andromdapersistence:Entity xmi:id="_BMQl8Z9tEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729333095602_170414_6386"/>
+  <andromdapersistence:Entity xmi:id="_BMQl8p9tEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729331579348_369647_4816"/>
+  <andromdapersistence:Entity xmi:id="_BMQl859tEe-UrZV4fABbBg" andromda_hibernate_generator_class="sequence" base_Class="_19_0_3_90e0298_1729332417010_894231_5583"/>
+  <andromdapersistence:Identifier xmi:id="_BMQl9J9tEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729334278662_211527_7329"/>
+  <andromdapersistence:Identifier xmi:id="_BMQl9Z9tEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_4_90e0298_1730702373973_310938_7695"/>
+  <andromdapersistence:Identifier xmi:id="_BMQl9p9tEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729333809092_350231_6965"/>
+  <andromdapersistence:Identifier xmi:id="_BMQl959tEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729332661315_110974_6053"/>
+  <andromdapersistence:Identifier xmi:id="_BMQl-J9tEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729333096104_466374_6415"/>
+  <andromdapersistence:Identifier xmi:id="_BMQl-Z9tEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729331580075_668169_4860"/>
+  <andromdapersistence:Identifier xmi:id="_BMQl-p9tEe-UrZV4fABbBg" andromda_persistence_generator_type="SEQUENCE" base_Property="_19_0_3_90e0298_1729332417525_774570_5612"/>
+  <andromdapersistence:MappedSuperclass xmi:id="_BMQl-59tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331580118_984778_5008"/>
+  <andromdapersistence:PersistentProperty xmi:id="_BMQl_J9tEe-UrZV4fABbBg" base_Property="_19_0_3_90e0298_1729332950329_911978_6377"/>
+  <andromdapersistence:PersistentAttribute xmi:id="_BMQl_Z9tEe-UrZV4fABbBg" base_Property="_19_0_3_90e0298_1729332950329_911978_6377"/>
+  <andromdapersistence:PersistentElement xmi:id="_BMQl_p9tEe-UrZV4fABbBg" base_Property="_19_0_3_90e0298_1729332950329_911978_6377"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQl_59tEe-UrZV4fABbBg" base_Package="_19_0_4_90e0298_1696508826829_987502_4878"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmAJ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647342708464_347206_4934"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmAZ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647343862964_412097_4997"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmAp9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647343884802_483206_4999"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmA59tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647343872989_216857_4998"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmBJ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647340378372_698346_4812"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmBZ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647342635470_730239_4872"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmBp9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647342603365_579290_4813"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmB59tEe-UrZV4fABbBg" base_Package="_19_0_4_90e0298_1696508820885_577642_4877"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmCJ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644661611035_757178_4823"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmCZ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1647343893116_32445_5000"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmCp9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644661610360_816173_4797"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmC59tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1645257711066_59882_4820"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmDJ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1645257717692_171251_4821"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmDZ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1645258148090_775189_4881"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmDp9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574668_419999_4797"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmD59tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574671_549823_4801"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmEJ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1645257666912_384001_4819"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmEZ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574668_36958_4798"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmEp9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574667_439922_4795"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmE59tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1644660574668_90906_4796"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmFJ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729334278623_482205_7296"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmFZ9tEe-UrZV4fABbBg" base_Package="_19_0_4_90e0298_1730702373911_475071_7654"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmFp9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729333809056_792133_6934"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmF59tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729332417008_302238_5582"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmGJ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729333095602_747714_6385"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmGZ9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729332254491_65926_5580"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmGp9tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729331449530_3298_4813"/>
+  <andromdaxml:XmlSchema xmi:id="_BMQmG59tEe-UrZV4fABbBg" base_Package="_19_0_3_90e0298_1729331579341_533206_4815"/>
+  <andromdaservice:Service xmi:id="_BMRNAJ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729334278627_897235_7299"/>
+  <andromdaservice:Service xmi:id="_BMRNAZ9tEe-UrZV4fABbBg" base_Class="_19_0_4_90e0298_1730702373913_223049_7657"/>
+  <andromdaservice:Service xmi:id="_BMRNAp9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333809060_384373_6937"/>
+  <andromdaservice:Service xmi:id="_BMRNA59tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332661304_485718_6048"/>
+  <andromdaservice:Service xmi:id="_BMRNBJ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729333095603_439812_6388"/>
+  <andromdaservice:Service xmi:id="_BMRNBZ9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729332417011_334004_5585"/>
+  <andromdaservice:Service xmi:id="_BMRNBp9tEe-UrZV4fABbBg" base_Class="_19_0_3_90e0298_1729331579351_779312_4818"/>
+  <andromdaservice:ServiceOperation xmi:id="_BMRNB59tEe-UrZV4fABbBg" base_Operation="_19_0_3_90e0298_1729331580082_276695_4883"/>
+  <andromdaservice:ServiceOperation xmi:id="_BMRNCJ9tEe-UrZV4fABbBg" base_Operation="_19_0_3_90e0298_1729331580081_951639_4879"/>
+  <standard:ModelLibrary xmi:id="_BMYhwJ9tEe-UrZV4fABbBg" base_Package="_9_0_1fe00f9_1119336925546_238419_77"/>
+  <standard:ModelLibrary xmi:id="_BMZI059tEe-UrZV4fABbBg" base_Package="eee_1045467100313_135436_1"/>
 </xmi:XMI>

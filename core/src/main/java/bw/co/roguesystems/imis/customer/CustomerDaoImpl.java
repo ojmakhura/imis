@@ -6,6 +6,7 @@
  */
 package bw.co.roguesystems.imis.customer;
 
+import bw.co.roguesystems.imis.kyc.KycRepository;
 import bw.co.roguesystems.imis.policy.PolicyRepository;
 import org.springframework.stereotype.Repository;
 
@@ -19,11 +20,13 @@ public class CustomerDaoImpl
     
     public CustomerDaoImpl(
         PolicyRepository policyRepository,
+        KycRepository kycRepository,
         CustomerRepository customerRepository
     ) {
 
         super(
             policyRepository,
+            kycRepository,
             customerRepository
         );
     }

@@ -6,6 +6,8 @@
 package bw.co.roguesystems.imis.relationship;
 
 import java.util.Optional;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -85,6 +87,17 @@ public class RelationshipApiImpl extends RelationshipApiBase {
     @Override
     public ResponseEntity<?> handleSave(RelationshipVO relationship) {
         try {
+
+            if(relationship.getCreatedAt() == null) {
+                relationship.setCreatedAt(java.time.LocalDateTime.now());
+            }
+            
+            if(StringUtils.isBlank(relationship.getCreatedBy())) {
+                relationship.setCreatedBy("SYSTEM");
+            }
+
+            System.out.println(relationship);
+
             Optional<?> data = Optional.of(relationshipService.save(relationship)); // TODO: Add custom code here;
             ResponseEntity<?> response;
 

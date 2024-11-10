@@ -36,10 +36,10 @@ export class BeneficiaryApi {
 
     }
 
-    public save(benefit: BeneficiaryVO | any ): Observable<BeneficiaryVO | any> {
+    public save(beneficiary: BeneficiaryVO | any ): Observable<BeneficiaryVO | any> {
 
 
-        return this.http.post<BeneficiaryVO | any>(this.path, benefit);
+        return this.http.post<BeneficiaryVO | any>(this.path, beneficiary);
 
     }
 

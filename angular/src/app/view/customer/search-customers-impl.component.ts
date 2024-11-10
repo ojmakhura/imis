@@ -36,6 +36,7 @@ export class SearchCustomersImplComponent extends SearchCustomersComponent {
         this.success = this.customerApiStore.success;
         this.loading = this.customerApiStore.loading;
         this.error = this.customerApiStore.error;
+        this.messages = this.customerApiStore.messages;
         this.customersTablePaged = false;
         this.customersTableSignal = this.customerApiStore.dataPage;
     }

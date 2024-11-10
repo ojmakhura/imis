@@ -38,6 +38,13 @@ export class EditCustomerImplComponent extends EditCustomerComponent {
         this.success = this.customerApiStore.success;
         this.loading = this.customerApiStore.loading;
         this.error = this.customerApiStore.error;
+        this.messages = this.customerApiStore.messages;
+
+        this.route.queryParams.subscribe((params: any) => {
+          if (params.id) {
+            this.customerApiStore.findById(params);
+          }
+        });
     }
 
     override beforeOnInit(form: EditCustomerVarsForm): EditCustomerVarsForm{     
@@ -48,7 +55,11 @@ export class EditCustomerImplComponent extends EditCustomerComponent {
     }
     
     override beforeEditCustomerSave(form: any): void {
-      form.customer = { ...this.customerEditor?.customerEditorForm?.value };
+      form.customer = { ...this.customerEditor?.formGroupControl?.value };
       this.customerApiStore.save(form);
+    }
+
+    override get editCustomerViewDetailsId(): number {
+      return this.customerEditor?.formGroupControl?.get('id')?.value;
     }
 }

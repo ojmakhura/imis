@@ -38,6 +38,13 @@ export class EditBenefitImplComponent extends EditBenefitComponent {
         this.success = this.benefitApiStore.success;
         this.loading = this.benefitApiStore.loading;
         this.error = this.benefitApiStore.error;
+        this.messages = this.benefitApiStore.messages;
+
+        this.route.queryParams.subscribe((params: any) => {
+          if (params.id) {
+            this.benefitApiStore.findById(params);
+          }
+        });
     }
 
     override beforeOnInit(form: EditBenefitVarsForm): EditBenefitVarsForm{     
@@ -49,7 +56,11 @@ export class EditBenefitImplComponent extends EditBenefitComponent {
 
     override beforeEditBenefitSave(form: any): void {
         
-      form.benefit = { ...this.benefitEditor?.benefitEditorForm?.value }
+      form.benefit = { ...this.benefitEditor?.formGroupControl?.value }
       this.benefitApiStore.save(form);
+    }
+
+    override get editBenefitViewDetailsId(): number {
+      return this.benefitEditor?.formGroupControl?.get('id')?.value;
     }
 }

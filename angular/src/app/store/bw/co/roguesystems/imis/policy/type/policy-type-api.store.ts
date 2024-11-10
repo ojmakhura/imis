@@ -42,7 +42,7 @@ export const PolicyTypeApiStore = signalStore(
                      data, 
                      loading: false, 
                      success: true, 
-                     messages: [] 
+                     messages: [`Found policy type ${data.type}`] 
                   }
                 );
               },

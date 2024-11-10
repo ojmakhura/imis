@@ -26,13 +26,11 @@ import org.springframework.stereotype.Repository;
 public class PolicyDaoImpl
     extends PolicyDaoBase
 {
-    
-    
 
     public PolicyDaoImpl(PolicyTypeRepository policyTypeRepository, CustomerRepository customerRepository,
             BeneficiaryRepository beneficiaryRepository, KycRepository kycRepository,
             PolicyRepository policyRepository) {
-        super(policyTypeRepository, customerRepository, beneficiaryRepository, kycRepository, policyRepository);
+        super(policyTypeRepository, customerRepository, beneficiaryRepository, policyRepository);
         //TODO Auto-generated constructor stub
     }
 

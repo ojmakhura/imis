@@ -6,7 +6,7 @@
  */
 package bw.co.roguesystems.imis.kyc;
 
-import bw.co.roguesystems.imis.policy.PolicyRepository;
+import bw.co.roguesystems.imis.customer.CustomerRepository;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -17,15 +17,9 @@ public class KycDaoImpl
     extends KycDaoBase
 {
     
-    public KycDaoImpl(
-        PolicyRepository policyRepository,
-        KycRepository kycRepository
-    ) {
-
-        super(
-            policyRepository,
-            kycRepository
-        );
+    public KycDaoImpl(CustomerRepository customerRepository, KycRepository kycRepository)
+    {
+        super(customerRepository, kycRepository);
     }
 
     /**

@@ -7,6 +7,8 @@ package bw.co.roguesystems.imis.customer;
 
 import bw.co.roguesystems.imis.SearchObject;
 import java.util.Optional;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -124,6 +126,15 @@ public class CustomerApiImpl extends CustomerApiBase {
     @Override
     public ResponseEntity<?> handleSave(CustomerVO customer) {
         try {
+
+            if(customer.getCreatedAt() == null) {
+                customer.setCreatedAt(java.time.LocalDateTime.now());
+            }
+            
+            if(StringUtils.isBlank(customer.getCreatedBy())) {
+                customer.setCreatedBy("SYSTEM");
+            }
+
             Optional<?> data = Optional.of(customerService.save(customer)); // TODO: Add custom code here;
             ResponseEntity<?> response;
 

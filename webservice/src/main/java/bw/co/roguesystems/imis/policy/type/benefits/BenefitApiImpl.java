@@ -6,6 +6,8 @@
 package bw.co.roguesystems.imis.policy.type.benefits;
 
 import java.util.Optional;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -85,6 +87,15 @@ public class BenefitApiImpl extends BenefitApiBase {
     @Override
     public ResponseEntity<?> handleSave(BenefitVO benefit) {
         try {
+
+            if(benefit.getCreatedAt() == null) {
+                benefit.setCreatedAt(java.time.LocalDateTime.now());
+            }
+            
+            if(StringUtils.isBlank(benefit.getCreatedBy())) {
+                benefit.setCreatedBy("SYSTEM");
+            }
+
             Optional<?> data = Optional.of(benefitService.save(benefit)); // TODO: Add custom code here;
             ResponseEntity<?> response;
 

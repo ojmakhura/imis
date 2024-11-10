@@ -36,6 +36,7 @@ export class SearchBenefitImplComponent extends SearchBenefitComponent {
         this.success = this.benefitApiStore.success;
         this.loading = this.benefitApiStore.loading;
         this.error = this.benefitApiStore.error;
+        this.messages = this.benefitApiStore.messages;
         this.benefitsTablePaged = false;
         this.benefitsTableSignal = this.benefitApiStore.dataList;
     }

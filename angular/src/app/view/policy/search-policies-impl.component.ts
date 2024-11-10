@@ -36,6 +36,7 @@ export class SearchPoliciesImplComponent extends SearchPoliciesComponent {
         this.success = this.policyApiStore.success;
         this.loading = this.policyApiStore.loading;
         this.error = this.policyApiStore.error;
+        this.messages = this.policyApiStore.messages;
         this.policiesTablePaged = false;
         this.policiesTableSignal = this.policyApiStore.dataList;
     }

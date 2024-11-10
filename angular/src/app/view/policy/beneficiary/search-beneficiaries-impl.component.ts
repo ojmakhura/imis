@@ -36,6 +36,7 @@ export class SearchBeneficiariesImplComponent extends SearchBeneficiariesCompone
         this.success = this.beneficiaryApiStore.success;
         this.loading = this.beneficiaryApiStore.loading;
         this.error = this.beneficiaryApiStore.error;
+        this.messages = this.beneficiaryApiStore.messages;
         this.beneficiariesTablePaged = false;
         this.beneficiariesTableSignal = this.beneficiaryApiStore.dataList;
     }

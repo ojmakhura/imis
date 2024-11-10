@@ -83,6 +83,8 @@ public class RelationshipServiceImpl
     protected RelationshipVO handleSave(RelationshipVO relationship)
         throws Exception
     {
+        System.out.println("Saving relationship");
+        System.out.println(relationship);
 
         Relationship rel = this.getRelationshipDao().relationshipVOToEntity(relationship);
         rel = relationshipRepository.save(rel);
