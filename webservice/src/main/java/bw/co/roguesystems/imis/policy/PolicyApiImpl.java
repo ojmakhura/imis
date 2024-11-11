@@ -96,6 +96,20 @@ public class PolicyApiImpl extends PolicyApiBase {
                 policy.setCreatedBy("SYSTEM");
             }
 
+            if(policy.getCustomer().getId() == null) {
+
+                if(policy.getCustomer().getCreatedAt() == null) {
+                    policy.getCustomer().setCreatedAt(java.time.LocalDateTime.now());
+                }
+                
+                if(StringUtils.isBlank(policy.getCustomer().getCreatedBy())) {
+                    policy.getCustomer().setCreatedBy("SYSTEM");
+                }
+
+            }
+
+            System.out.println(policy);
+
             Optional<?> data = Optional.of(policyService.save(policy)); // TODO: Add custom code here;
             ResponseEntity<?> response;
 
@@ -108,6 +122,7 @@ public class PolicyApiImpl extends PolicyApiBase {
             return response;
         } catch (Exception e) {
             logger.error(e.getMessage());
+            e.printStackTrace();
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         }
     }

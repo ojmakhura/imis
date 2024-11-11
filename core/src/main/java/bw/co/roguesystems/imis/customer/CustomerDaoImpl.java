@@ -8,6 +8,10 @@ package bw.co.roguesystems.imis.customer;
 
 import bw.co.roguesystems.imis.kyc.KycRepository;
 import bw.co.roguesystems.imis.policy.PolicyRepository;
+
+import java.time.ZoneId;
+import java.util.Date;
+
 import org.springframework.stereotype.Repository;
 
 /**
@@ -96,6 +100,7 @@ public class CustomerDaoImpl
         // TODO verify behavior of customerVOToEntity
         super.customerVOToEntity(source, target, copyIfNull);
         // No conversion for target.dateOfBirth (can't convert source.getDateOfBirth():java.util.Date to java.util.Date
-        target.setDateOfBirth(target.getDateOfBirth());
+        target.setDateOfBirth(Date.from(source.getDateOfBirth().atStartOfDay(ZoneId.systemDefault()).toInstant()));
+        System.out.println(target);
     }
 }

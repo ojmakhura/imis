@@ -119,10 +119,10 @@ export const PolicyApiStore = signalStore(
           );
         }),
       ),
-      save: rxMethod<{type: PolicyVO | any }>(
+      save: rxMethod<{policy: PolicyVO | any }>(
         switchMap((data) => {
           patchState(store, { loading: true });
-          return policyApi.save(data.type, ).pipe(
+          return policyApi.save(data.policy, ).pipe(
             tapResponse({
               next: (data: PolicyVO | any) => {
                 patchState(

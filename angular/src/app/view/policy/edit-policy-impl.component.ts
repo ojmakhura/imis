@@ -55,7 +55,8 @@ export class EditPolicyImplComponent extends EditPolicyComponent {
     }
 
     override beforeEditPolicySave(form: any): void {
-        form.policy = { ...this.policyEditor?.formGroupControl?.value };
+        
+        form.policy = { ...this.policyEditor?.policy };
         this.policyApiStore.save(form);
     }
 

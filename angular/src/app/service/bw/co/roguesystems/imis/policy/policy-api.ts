@@ -36,10 +36,10 @@ export class PolicyApi {
 
     }
 
-    public save(type: PolicyVO | any ): Observable<PolicyVO | any> {
+    public save(policy: PolicyVO | any ): Observable<PolicyVO | any> {
 
 
-        return this.http.post<PolicyVO | any>(this.path, type);
+        return this.http.post<PolicyVO | any>(this.path, policy);
 
     }
 
